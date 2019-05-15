@@ -13,4 +13,4 @@ Link da página|Resumo
 
 Link da página|Resumo
 |---|---|
-[Modelagem Básica de uma Classe](pages/prog_java/class_model.md)| Como construir uma Classe orientada a objetos com Java
+[Modelagem Básica de uma Classe](../prog_java/class_model.md)| Como construir uma Classe orientada a objetos com Java
