@@ -1,4 +1,4 @@
-[[**Página inicial**](PR0GR4M1NG/README.md)]
+[[**Página inicial**](https://f4nt0.github.io/PR0GR4M1NG)]
 
 
 # Página inicial da Linguagem Java
