@@ -12,4 +12,4 @@
 
 Link para Página|Informações|Imagem
 |---|---|---|
-[Página inicial de Java](../pages/prog_java/README.md)|Estudos da Linguagem Java|<img src="img/java-icon.jpg" width="100">
+[Página inicial de Java](https://f4nt0.github.io/PR0GR4M1NG/prog_java)|Estudos da Linguagem Java|<img src="img/java-icon.jpg" width="100">
