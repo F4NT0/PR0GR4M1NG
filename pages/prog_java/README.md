@@ -18,5 +18,6 @@ Nome da Página|Informação|Status
 
 Nome da Página|Informação|Status
 |---|---|---|
-[Modelagem de Classe](../pages/prog_java/class_model.md)|Modelagem básica de uma Classe|:heavy_check_mark:
+home|Página inicial do site|:heavy_check_mark: 
+class_model|Modelagem básica de uma Classe|:heavy_check_mark:
 
