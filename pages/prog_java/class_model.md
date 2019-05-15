@@ -1,4 +1,4 @@
-[[**Página Inicial**](../README.md)]
+[[**Página Inicial**](../home.md)]
 
 # Modelagem Básica de uma classe Orientada a Objetos
 
