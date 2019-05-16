@@ -20,3 +20,4 @@ Link da Página|Resumo
 |---|---|
 [Como compilar arquivos em C](../prog_c/compilador.md)| como fazer um arquivo compilável e executar o programa
 [Estrutura de um arquivo C e tipos de Dados](../prog_c/estrutura.md)| Entendendo as bibliotecas básicas e os tipos de dados em C
+[Como tratar entrada e Saídas](../prog_c/estrutura-controle.md)| Trabalhando com Entrada e Saídas em Arquivos C

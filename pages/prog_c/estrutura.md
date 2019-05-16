@@ -1,6 +1,46 @@
 [[Página Inicial](../prog_c/home.md)]
 
-# Estrutura Básica de um programa C
+---
+
+## Tipos de modificadores de informações
+
+---
+
+Existem os seguintes tipos de estrutura de dados com C
+
+* <code style="color : lightblue">Int</code>(conhecido como Inteiro)
+* <code style="color : fuchsia">Float</code>(Conhecido como Ponto Flutuante)
+* <code style="color : blue">double</code>(Tambem conhecido como ponto flutuante)
+* <code style="color : gold">Char</code>(Conhecido como Caractere)
+* <code style="color : orange">Vetores de Chars(String)</code>(Conhecido como Arrays de Chars)
+
+Podemos usar modificadores que auxiliam na definição do tamanho de cada tipo de dado, onde:
+* <code style="color : springgreen">short</code> = é a forma curta do dado, onde não apresenta todo o valor
+* <code style="color : red">long</code> = é a forma completa do valor 
+* <code style="color : cyan">unsigned</code> = são valores sem sinal
+* <code style="color : deeppink">signed</code> = são valores com sinal
+
+Agora a tabela abaixo diz o tamanho de cada tipo de formato
+
+Tipo de dado|Número de Bytes|Número de Bits|Intervalo de Tamanho
+|---|---|---|---|
+<code style="color : springgreen">short</code> <code style="color : lightblue">Int</code>|2|16|-32.768 á 32.767 (32 Kb)
+<code style="color : cyan">unsigned</code>  <code style="color : springgreen">short</code> <code style="color : lightblue">Int</code>|2|16| 0 á 65.535 (64 Kb)
+<code style="color : cyan">unsigned</code> <code style="color : lightblue">Int</code>|4|32|0 á 4.294.967.295 (4 Gb)
+<code style="color : lightblue">Int</code>|4|32|-2.147.483.648 á 2.147.483.647 (2 Gb)
+<code style="color : red">long</code> <code style="color : lightblue">Int</code>|4|32|
+<code style="color : deeppink">signed</code> <code style="color : gold">Char</code>|1|8| 0 á 255
+<code style="color : cyan">unsigned</code> <code style="color : gold">Char</code>|1|8| 0 á 255
+<code style="color : fuchsia">Float</code>|4|32| 7 casas de precisão
+<code style="color : blue">double</code>|8|64|15 casas de precisão
+
+se deseja verificar o tamanho de uma variável, utilize a função `sizeOf` retorna o tamanho em Bytes
+
+---
+
+## Estrutura Básica de um programa C
+
+---
 
 A linguagem C oferece um biblioteca básica de funções padrões que utilizamos direto.
 
@@ -40,42 +80,6 @@ scanf("%d", &i);
 
 printf("%d", i); //irá sair o valor do atributo i como um valor inteiro
 ```
-
----
-
-## Tipos de modificadores de informações
-
----
-
-Existem os seguintes tipos de estrutura de dados com C
-
-* <code style="color : lightblue">Int</code>(conhecido como Inteiro)
-* <code style="color : fuchsia">Float</code>(Conhecido como Ponto Flutuante)
-* <code style="color : blue">double</code>(Tambem conhecido como ponto flutuante)
-* <code style="color : gold">Char</code>(Conhecido como Caractere)
-* <code style="color : orange">Vetores de Chars(String)</code>(Conhecido como Arrays de Chars)
-
-Podemos usar modificadores que auxiliam na definição do tamanho de cada tipo de dado, onde:
-* <code style="color : springgreen">short</code> = é a forma curta do dado, onde não apresenta todo o valor
-* <code style="color : red">long</code> = é a forma completa do valor 
-* <code style="color : cyan">unsigned</code> = são valores sem sinal
-* <code style="color : deeppink">signed</code> = são valores com sinal
-
-Agora a tabela abaixo diz o tamanho de cada tipo de formato
-
-Tipo de dado|Número de Bytes|Número de Bits|Intervalo de Tamanho
-|---|---|---|---|
-<code style="color : springgreen">short</code> <code style="color : lightblue">Int</code>|2|16|-32.768 á 32.767 (32 Kb)
-<code style="color : cyan">unsigned</code>  <code style="color : springgreen">short</code> <code style="color : lightblue">Int</code>|2|16| 0 á 65.535 (64 Kb)
-<code style="color : cyan">unsigned</code> <code style="color : lightblue">Int</code>|4|32|0 á 4.294.967.295 (4 Gb)
-<code style="color : lightblue">Int</code>|4|32|-2.147.483.648 á 2.147.483.647 (2 Gb)
-<code style="color : red">long</code> <code style="color : lightblue">Int</code>|4|32|
-<code style="color : deeppink">signed</code> <code style="color : gold">Char</code>|1|8| 0 á 255
-<code style="color : cyan">unsigned</code> <code style="color : gold">Char</code>|1|8| 0 á 255
-<code style="color : fuchsia">Float</code>|4|32| 7 casas de precisão
-<code style="color : blue">double</code>|8|64|15 casas de precisão
-
-se deseja verificar o tamanho de uma variável, utilize a função `sizeOf` retorna o tamanho em Bytes
 
 ---
 
