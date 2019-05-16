@@ -1,6 +1,7 @@
-# Como compilar arquivos em C
+[[Página Inicial](../prog_c/home.md)]
 
-* Aqui irei ensinar como se compila um arquivo C para testar seus projetos no terminal, onde pode acontecer de tudo no Terminal:
+
+# Como compilar arquivos em C
 
 
 <center>

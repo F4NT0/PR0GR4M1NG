@@ -7,7 +7,7 @@
 </center>
 
 
-<h1><code style="color: red">GLOSSÁRIO</code></h1>
+<code style="color: red">GLOSSÁRIO</code>
 
 **Básico da Linguagem C**
 
