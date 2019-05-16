@@ -8,10 +8,11 @@
 
 ---
 
-
 <center>
 <code style="color: yellow">GLOSSÁRIO</code>
 </center>
+
+---
 
 **Básico da Linguagem C**
 

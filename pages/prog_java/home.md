@@ -7,8 +7,12 @@
     <img src="../../img/java-logo-clipart-256.gif" width="100">
 </center>
 
+---
+<center>
+<code style="color: red">GLOSSÁRIO</code>
+</center>
 
-<h1><code style="color: red">GLOSSÁRIO</code></h1>
+---
 
 **Básico da Linguagem Java**
 

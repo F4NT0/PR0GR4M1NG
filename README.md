@@ -4,11 +4,19 @@
   <img src="img/terminal.gif" width="300">
 </center>
 
-* Neste website eu organizo todas as informações que vou aprendendo e transmito para os que precisam
+<center>
+  Página de informações aprendidas pelo Gabriel Fanto
+</center>
 
-<code style="color:green">GLOSSÁRIO</code>
+---
 
-* Páginas de Linguagens de Programação
+<center>
+<code style="color:yellow">GLOSSÁRIO</code>
+</center>
+
+---
+
+**PÁGINAS DE LINGUAGENS DE PROGRAMAÇÃO**
 
 Link para Página|Informações|Imagem
 |---|---|---|
