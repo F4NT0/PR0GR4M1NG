@@ -6,6 +6,9 @@
 <center>
     <img src="../../img/java-logo-clipart-256.gif" width="100">
 </center>
+<center>
+Todo conhecimento básico de Java
+</center>
 
 ---
 <center>

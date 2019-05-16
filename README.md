@@ -5,7 +5,7 @@
 </center>
 
 <center>
-  Página de informações aprendidas pelo Gabriel Fanto
+    B3M V1ND0 40 C0NH3C1M3NT0
 </center>
 
 ---

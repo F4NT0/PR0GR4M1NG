@@ -36,7 +36,7 @@ Comando|Explicação
 <code style="color : red">-o</code>| Comando que serve para criar um executor
 <code style="color : red">nomeexecutavel</code>| nome do arquivo que irá ser executado
 
-### Agora iremos executar o arquivo executável 
+Agora iremos executar o arquivo executável 
 
 ---
 
