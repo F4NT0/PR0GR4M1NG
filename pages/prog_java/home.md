@@ -28,4 +28,10 @@ Link da página|Resumo
 [Classes Abstratas](../prog_java/classes_abstratas.md)| Como fazer uma Classe Abstrata em Java
 [Polimorfismo](../prog_java/polimorfismo.md)| Como se organizar com Polimorfismo
 [Como mexer com UML](../prog_java/uml.md) | Como organizar Diagramas em UML
+[Entendendo junit](../prog_java/junit.md) | Como utilizar o Junit em seu sistema
+[Teoria do Tratamento de Excessoes](../prog_java/exceptions_teoria.md) | Entenda como funciona o tratamento de Excessoes
+[Trabalhando com Excessoes](../prog_java/exceptions.md)| Como utilizar excessoes em Java
+[Fluxo de Dados em Java](../prog_java/data_flux.md) | Entendendo como funciona o fluxo de dados
+[Escrevendo Arquivos Textos](../prog_java/writing_file.md) | Como escrever em um arquivo com Java
+[Lendo Arquivos Textos](../prog_java/reading_file.md) | Como ler arquivos com java
 
