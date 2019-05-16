@@ -1,4 +1,4 @@
-[[**Página Inicial**](../home.md)]
+[[**Página Inicial**](../prog_java/home.md)]
 
 # Modelagem Básica de uma classe Orientada a Objetos
 
