@@ -1,16 +1,16 @@
 # Como compilar arquivos em C
 
-<h1><code style="color : lightgreen">Sistema Linux</code> <img src="../../img/icon-linux.png"></h1>
+## <code style="color : lightgreen">Sistema Linux</code> <img src="../../img/icon-linux.png">
 
-* Baixe o programa <code style="color : yellow">**gcc**</code>
-
----
-
-* <h2><code style="color : yellow">$ sudo apt-get install gcc</code></h2>
+### Baixe o programa <code style="color : yellow">**gcc**</code>
 
 ---
 
-* Após baixado o programa, coloque o seguinte **comando**:
+<code style="color : yellow">$ sudo apt-get install gcc</code>
+
+---
+
+### Após baixado o programa, coloque o seguinte **comando**:
 
 ---
 
@@ -27,7 +27,7 @@ Comando|Explicação
 <code style="color : red">-o</code>| Comando que serve para criar um executor
 <code style="color : red">nomeexecutavel</code>| nome do arquivo que irá ser executado
 
-* Agora iremos executar o arquivo executável 
+### Agora iremos executar o arquivo executável 
 
 ---
 
