@@ -3,6 +3,10 @@
 
 # Página inicial da Linguagem Java
 
+<center>
+    <img src="../../img/java-logo-clipart-256.gif" width="100">
+</center>
+
 [**`GLOSSÁRIO`**]()
 
 **Básico da Linguagem Java**
