@@ -53,6 +53,7 @@ numero.add(valor1);
 * Para saber e utilizar o tamanho do ArrayList
     * Podemos usar o tamanho para controlar a pesquisa de informações
     * Utilizamos o Método **size()** para retornar o tamanho do ArrayList
+
 ```java
 //iniciando um ArrayList
 ArrayList<Integer> numero = new ArrayList<Integer>(20);
@@ -65,6 +66,7 @@ numero.size() //retorna o tamanho, que é 20
    * podemos pegar um valor unico dentro de um ArrayList
    * podemos pegar todos os valores dentro de um ArrayList
    * Para isso usamos o Método **Get()** do ArrayList
+
 ```java
 //iniciando um ArrayList
 ArrayList<Integer> numero = new ArrayList<Integer>();
@@ -95,6 +97,7 @@ for(int i = 0; i < numero.size() ; i++){ //vai varrer todo o tamanho do vetor
    * podemos alterar o valor de uma posição a qualquer momento
    * Usamos o Método **set()** para fazermos isso
    * o método necessita que se diga a posição e qual valor que sera adicionado
+
 ```java
 //iniciando uma ArrayList
 ArrayList<Integer> numero = new ArrayList<Integer>();
@@ -148,6 +151,7 @@ numero.size(); //1
     * Podemos descobrir a ultima vez que esse valor foi adicionado no ArrayList
     * utilizamos para saber o primeiro usando o Método **indexOf()**
     * utilizamos para saber o ultimo usando o Método **lastIndexOf()**
+
 ```java
 //iniciando um ArrayList
 ArrayList<Integer> numero = new ArrayList<Integer>();
@@ -167,6 +171,7 @@ int indice2 = numero.lastIndexOf(5); //indice = 2
 ```
 * Verificar se tem um elemento especifico dentro do ArrayList
    * Podemos saber se tem um elemento usando Método **contains()**
+
 ```java
 //Criando um ArrayList
 ArrayList<Integer> numero = new ArrayList<Integer>();
@@ -178,6 +183,7 @@ boolean resultado = numero.contains(5);
 ```
 * Verificar se a lista esta Vazia ou não
    * o Método **isEmpty()** serve para saber se existem valores dentro do ArrayList
+
 ```java
 //iniciando um ArrayList
 ArrayList<Integer> numero = new ArrayList<Integer>();
@@ -187,6 +193,7 @@ boolean resultado = numero.isEmpty();
 ```
 * Remover todos os Valores dentro do ArrayList
     * Podemos remover tudo com o Método **clear()**
+
 ```java
 //iniciando um ArrayList
 ArrayList<Integer> numero = new ArrayList<Integer>();
