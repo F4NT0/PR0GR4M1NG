@@ -1,8 +1,16 @@
 # Como compilar arquivos em C
 
-## <code style="color : lightgreen">Sistema Linux</code> <img src="../../img/icon-linux.png">
+* Aqui irei ensinar como se compila um arquivo C para testar seus projetos no terminal, onde pode acontecer de tudo no Terminal:
 
-### Baixe o programa <code style="color : yellow">**gcc**</code>
+
+<center>
+<code style="color : lightgreen" font-size="4">Sistema Linux</code>
+</center>
+<center>
+    <img src="../../img/icon-linux.png">
+</center>
+
+Baixe o programa **<code style="color : yellow">gcc</code>**
 
 ---
 
@@ -10,11 +18,11 @@
 
 ---
 
-### Após baixado o programa, coloque o seguinte **comando**:
+Após baixado o programa, coloque o seguinte **comando**:
 
 ---
 
-* <h2><code style="color : red">$ gcc nomeprograma.c -o nomeexecutavel</code></h2>
+<code style="color : red">$ gcc nomeprograma.c -o nomeexecutavel</code>
 
 ---
 
@@ -31,7 +39,7 @@ Comando|Explicação
 
 ---
 
-* <h2><code style="color : lightblue">$ ./nomeexecutavel</code></h2>
+<code style="color : lightblue">$ ./nomeexecutavel</code>
 
 ---
 
