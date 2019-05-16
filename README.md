@@ -13,3 +13,4 @@
 Link para Página|Informações|Imagem
 |---|---|---|
 [Página inicial de Java](pages/prog_java/home.md)|Estudos da Linguagem Java|<img src="img/java-icon.jpg" width="100">
+[Página inicial de C](pages/prog_c/home.md)| Estudos da Linguagem C|<img src="img/c-icon.jpg" width="100">
