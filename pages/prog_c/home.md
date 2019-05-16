@@ -6,11 +6,16 @@
     <img src="../../img/c-language.jpg" width="300">
 </center>
 
+---
 
-<code style="color: red">GLOSSÁRIO</code>
+
+<center>
+<code style="color: yellow">GLOSSÁRIO</code>
+</center>
 
 **Básico da Linguagem C**
 
 Link da Página|Resumo
 |---|---|
 [Como compilar arquivos em C](../prog_c/compilador.md)| como fazer um arquivo compilável e executar o programa
+[Estrutura de um arquivo C e tipos de Dados](../prog_c/estrutura.md)| Entendendo as bibliotecas básicas e os tipos de dados em C
