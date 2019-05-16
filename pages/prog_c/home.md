@@ -3,5 +3,14 @@
 # Página inicial da Linguagem C
 
 <center>
-    <img src="../../img/c-language.jpg" width="100">
+    <img src="../../img/c-language.jpg" width="300">
 </center>
+
+
+<h1><code style="color: red">GLOSSÁRIO</code></h1>
+
+**Básico da Linguagem C**
+
+Link da Página|Resumo
+|---|---|
+[Como compilar arquivos em C](../prog_c/compilador.md)| como fazer um arquivo compilável e executar o programa

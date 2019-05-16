@@ -7,7 +7,8 @@
     <img src="../../img/java-logo-clipart-256.gif" width="100">
 </center>
 
-[**`GLOSSÁRIO`**]()
+
+<h1><code style="color: red">GLOSSÁRIO</code></h1>
 
 **Básico da Linguagem Java**
 
