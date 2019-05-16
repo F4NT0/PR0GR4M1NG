@@ -6,7 +6,7 @@
 
 * Neste website eu organizo todas as informações que vou aprendendo e transmito para os que precisam
 
-[**`GLOSSÁRIO`**]()
+<code style="color:green">GLOSSÁRIO</code>
 
 * Páginas de Linguagens de Programação
 
