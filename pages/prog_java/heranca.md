@@ -1,4 +1,4 @@
-[(Página Inicial)[../prog_java/home.md]]
+[[Página Inicial](../prog_java/home.md)]
 
 # Generalização
 
@@ -6,18 +6,18 @@
 * Essas Classes devem possui um relacionamento hierárquico para que a generalização aconteça
 * O que a Generalização Possibilita:
      * Possibilita a derivação de tipos mais específicos a partir de um tipo mais genérico
-     * Uma Classe pode ser definida de forma abrangente e depois ser refinada nas chamadas **SubClasses**
-     * A classe mais generalizada se chama **SuperClasse** e as classes conectadas a ela se chamam **SubClasses**
+     * Uma Classe pode ser definida de forma abrangente e depois ser refinada nas chamadas **`SubClasses`**
+     * A classe mais generalizada se chama **`SuperClasse`** e as classes conectadas a ela se chamam **`SubClasses`**
      * Subclasses herdam os atributos,operações e relacionamentos da superclasse,permitindo modificações diferentes em cada classe usando as informações da SuperClasse.
-* Classe Mais Geral: **SuperClasse**
-* Classes Mais detalhadas: **SubClasses**
+* Classe Mais Geral: **`SuperClasse`**
+* Classes Mais detalhadas: **`SubClasses`**
 
 # Herança
 
 * É um mecanismo de reutilização de Código para atributos e métodos em comum em várias classes
 * A ideia central de heranças é que novas classes são criadas a partir de classes já existentes
-* Heranças seguem as ideias transmitidas na **Generalização**
-* os Métodos e Variáveis definidos na SuperClasse **Não são Declarados nas SubClasses**
+* Heranças seguem as ideias transmitidas na **`Generalização`**
+* os Métodos e Variáveis definidos na SuperClasse **`Não são Declarados nas SubClasses`**
 * Como Exemplo, queremos controlar os Funcionários de uma Empresa, mas nessa Empresa Existem diversos tipos de Funcionarios, portanto a Classe Funcionario é a SuperClasse e a informação de cada tipos de Funcionario são as SubClasses:
    
 |Tipo de Funcionario|Informações relevantes|Informações Gerais
@@ -27,7 +27,8 @@
 | Diretor| Sala onde Trabalha,tempo na direção|nome,cpf,codigo de trabalhador
 
 * Só fiz esses trabalhadores como exemplo
-* Podemos ver que todos os 3 Funcionarios possuem informações em Comum, portanto serão as informações que irão se colocados na **SuperClasse Funcionario**
+* Podemos ver que todos os 3 Funcionarios possuem informações em Comum, portanto serão as informações que irão se colocados na **`SuperClasse Funcionario`**
+
 ```java
 //criando a SuperClasse Funcionario
 
@@ -59,9 +60,10 @@ public String toString(){
 }
 ```
 * Nas SubClasses Motorista,Secretario e Diretor iremos utilizar as Variaveis e Métodos definidos em Funcionario
-* Para chamar a Classe Funcionario nas Subclasses iremos usar a palavra reservada **extends**
-* Para chamar o valor das Variáveis nas SubClasses iremos usar o método chamado **super()**
-* no toString() existe uma forma de sobrescrever métodos da superclasse usando a **Palavra super** antes do nome do método
+* Para chamar a Classe Funcionario nas Subclasses iremos usar a palavra reservada **`extends`**
+* Para chamar o valor das Variáveis nas SubClasses iremos usar o método chamado **`super()`**
+* no toString() existe uma forma de sobrescrever métodos da superclasse usando a **`Palavra super`** antes do nome do método
+
 ```java
 //classe Motorista
 public class Motorista extends Funcionario{

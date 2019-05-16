@@ -11,6 +11,7 @@
 * **Polimorfismo Estático** se dá quando temos a mesma operação implementada várias vezes na mesma classe
 * A escolha de qual operação será chamada depende da assinatura dos métodos sobrecarregados
 * Foram feitos exemplos sobre Sobrecarga na Parte de [Interface](https://github.com/F4NT0/Java_Basics/wiki/interface)
+
 ```java
  //exemplo com um construtor:
  
@@ -24,6 +25,7 @@
 * A escolha de qual método será chamado depende do tipo do objeto que recebe a mensagem
 * Também foi apresentado na Parte sobre [Herança](https://github.com/F4NT0/Java_Basics/wiki/heranca)
 * Também foi apresentado na Parte sobre [Classes Abstratas](https://github.com/F4NT0/Java_Basics/wiki/abstract)
+
 ```java
 //esse caso é quando fazemos Override de métodos nas SubClasses
 //exemplo feito até agora: toString()

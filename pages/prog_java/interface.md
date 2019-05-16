@@ -10,6 +10,7 @@
 * Colocamos o nome dos Métodos na classe interface e alterar em cada outra classe implementada
 * para implementar a classe interface usamos a palavra reservada **implements**
 * Uma classe normal pode ter implementado quantas classes de interface que quiser
+
 ```java
 //classe interface:
 
@@ -33,6 +34,7 @@ public class TesteDeClasse implements Imprimivel{
 ### Comparadores
 * A API java utiliza extensivamente interfaces em diversas situações
 * Usei duas Interfaces dela até agora: a **Comparable** e a **Comparator**
+
 ```java
 //Classe Comparable:
 public interface Comparable<T>{
@@ -52,16 +54,19 @@ public interface Comparator<T>{
 * para fazer ordenações, iremos utilizar as Expressões lambdas(desde o java 8)
 * expressões lambdas são funções anonimas(será explicado mais tarde)
 * abaixo se encontra uma expressão lambda dentro de um método sort() de ArrayList:
+
 ```java
 nomeArray.sort((nomeClasse c1, nomeClasse c2) -> c1.metodoUsadoParaOrdenar().compareto(c2.metodoUsadoParaOrdenar()));
 ```
 **OU**
+
 ```java
 nomeArray.sort((nomeClasse c1, nomeClasse c2) -> {
   ... código de ordenação ...
 }
 ```
 * **Exemplo:**
+
 ```java
 //classe de teste:
 
@@ -94,6 +99,7 @@ public void ordenaValor(){
 * A interface comparator possui um método static chamado comparing.
 * o método comparing tem acesso a função que retorna o critério de comparação
 * usando a ideia anterior mas utilizando um ordenador com esse método estatico
+
 ```java
 //classe de teste:
 
@@ -124,15 +130,18 @@ public void ordenaValor(){
 * Referência de Método
 
 * se desejarmos ordenar o ArrayList pelo valor usando uma referência de Método
+
 ```java
 vetor.sort(Comparator.comparing(TesteClasse::getValor));
 ```
 * se desejarmos ordenar o ArrayList para inverter o critério de ordenação]
+
 ```java
 vetor.sort(Comparator.comparing(TesteClasse::getValor).reversed());
 ```
 * se Desejarmos usar mais de um critério de ordenação ao mesmo tempo
 * Usamos o método thenComparing
+
 ```java
 //se na Classe TesteClasse tivesse dois metodos:
 public int getValor(){...}
@@ -149,6 +158,7 @@ public String getNome(){...}
 * Se estende uma interface existente sem a necessidade de alterar todas as classes que a implementam
 * Os métodos default exigem que já exista uma chamada de método anterior
 * Nós vimos um método default na ultima parte da matéria que é o método thenComparing() da Classe Interface
+
 ```java
 vetor.sort(Comparator.comparing(TesteClasse::getValor).thenComparing(TesteClasse::getNome));
 //o método thenComparing necessita que tenha sido feito a chamada de método do comparing()

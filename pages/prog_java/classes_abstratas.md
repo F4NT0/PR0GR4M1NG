@@ -36,6 +36,7 @@ abstract class Conta{
 
 * Agora, criaremos uma Classe normal e chamaremos a classe abstrata
 * Para chamarmos uma classe abstrata em outra classe, usamos a palavra reservada **extends**
+
 ```java
 public class TesteConta extends Conta{
  ...

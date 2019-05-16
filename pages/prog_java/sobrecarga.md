@@ -4,6 +4,7 @@
 
 * Sobrecarga significa a existência de vários Métodos com o mesmo nome,mas com Parâmetros diferentes
 * é um recurso útil e amplamente utilizado nas APIs do Java
+
 ```java
 //podemos usar em Métodos Construtores
 public nomeClasse(){...}
@@ -42,6 +43,7 @@ TesteDeClasse.nome(...);
    * Criar constantes, que podem ser acessadas apenas com o nome da Classe
    * Criar atributos que possam ser acessados por qualquer instância da classe
 * Para criar uma Constante, se utiliza a palavra reservada **final** e não pode ser mais alterado
+
 ```java
 //criando uma constante
 public static final double valor = 3.5;
