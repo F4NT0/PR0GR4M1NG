@@ -35,16 +35,45 @@ char frase[6];
 2) Agora armazenamos a nossa String nesse Vetor
 
 ```c
-char frase[6] = "fanto";
+//tipo de inserção 1
+char frase[6] = {'f','a','n','t','o','\0'};
+
+//tipo de inserção 2
+
+char frase[] = "fanto";
 ```
 
 3) Agora podemos pegar cada caractere do Vetor, onde cada posição é uma Letra
 
 ```c
 #include<stdio.h>
+#include<string.h>
 
-char frase[6] = "fanto";
+int main()
+{
+    //Atributos
+    char nome[] = "fanto"; //colocamos a string direto no Vetor
+    char nome2[6] = {'p','e','d','r','o','\0'};
+    int i;
+    
+    //vamos usar a função strlen() do pacote string.h
 
-prinf("%c", frase[0]);
+    for(i = 0 ; i < strlen(nome) ; i++){
+        printf("%c na posicao %u \n", nome[i],i);
+    }
+}
 ```
+
+#### Funções Principais da Biblioteca string.h
+
+Existem as Seguintes Funções na Biblioteca:
+
+Função|Descrição
+|---|---|
+<code style="color : deepskyblue">strcpy(s1,s2)</code>|Copia a String do vetor s1 no vetor s2
+<code style="color : deepskyblue">strcat(s1,s2)</code>|Concatena a String do vetor s1 no final da String do vetor s2
+<code style="color : deepskyblue">strlen(s1)</code>| apresenta o tamanho do vetor da String
+<code style="color : deepskyblue">strcmp(s1,s2)</code>|Retorna 0 se s1 é igual a s2, menor que zero se s1 < s2 e maior que zero se s1 > s2
+
+
  
