@@ -14,9 +14,9 @@ Antes de trabalharmos com estruturas de decisão,devemos trabalhar com lógica d
 
 Quando trabalhamos com Tabelas Verdades, trabalhamos com dois valores Booleanos:
 
-* <code style="color : green">True</code> = é uma resposta positiva que causa que as ações sejam feitas nas estruturas de controles
+* <code style="color : green">1</code> = é uma resposta positiva que causa que as ações sejam feitas nas estruturas de controles
 
-* <code style="color : red">False</code> = é uma resposta negativa que para interações do sistema
+* <code style="color : red">0</code> = é uma resposta negativa que para interações do sistema
 
 As tabelas-verdades trabalham com os resultados usando essas respostas booleanas para tratarmos de decisões
 
@@ -26,32 +26,32 @@ As tabelas-verdades trabalham com os resultados usando essas respostas booleanas
 
 A|B| A && B
 |---|---|---|
-<code style="color : green">True</code>|<code style="color : green">True</code>|<code style="color : green">True</code>
-<code style="color : green">True</code>|<code style="color : red">False</code>|<code style="color : red">False</code>
+<code style="color : green">1</code>|<code style="color : green">1</code>|<code style="color : green">1</code>
+<code style="color : green">1</code>|<code style="color : red">0</code>|<code style="color : red">0</code>
 
 
 <code style="color : gold">Disjunção</code>
 
 A|B| A `||` B
 |---|---|---|
-<code style="color : green">True</code>|<code style="color : green">True</code>|<code style="color : green">True</code>
-<code style="color : green">True</code>|<code style="color : red">False</code>|<code style="color : green">True</code>
-<code style="color : red">False</code>|<code style="color : green">True</code>|<code style="color : green">True</code>
-<code style="color : red">False</code>|<code style="color : red">False</code>|<code style="color : red">False</code>
+<code style="color : green">1</code>|<code style="color : green">1</code>|<code style="color : green">1</code>
+<code style="color : green">1</code>|<code style="color : red">0</code>|<code style="color : green">1</code>
+<code style="color : red">0</code>|<code style="color : green">1</code>|<code style="color : green">1</code>
+<code style="color : red">0</code>|<code style="color : red">0</code>|<code style="color : red">0</code>
 
 <code style="color : gold">Negação</code>
 
 A| !A
 |---|---|
-<code style="color : green">True</code>|<code style="color : red">False</code>
-<code style="color : red">False</code>|<code style="color : green">True</code>
+<code style="color : green">1</code>|<code style="color : red">0</code>
+<code style="color : red">0</code>|<code style="color : green">1</code>
 
 ou
 
 B| !B
 |---|---|
-<code style="color : green">True</code>|<code style="color : red">False</code>
-<code style="color : red">False</code>|<code style="color : green">True</code>
+<code style="color : green">1</code>|<code style="color : red">0</code>
+<code style="color : red">0</code>|<code style="color : green">1</code>
 
 ---
 
@@ -74,7 +74,7 @@ Diferente|<code style="color : lightblue">!=</code>| A <code style="color : ligh
 
 ## Estruturas de decisão
 
-são estruturas que fazem uma parte de código se um teste lógico de <code style="color : green">True</code>, se der <code style="color : red">False</code> irá fazer outra parte de código
+são estruturas que fazem uma parte de código se um teste lógico de <code style="color : green">1</code>, se der <code style="color : red">0</code> irá fazer outra parte de código
 
 ---
 
@@ -92,16 +92,16 @@ if(teste_logico)
 
 * <code style="color : gold">Decisão Composta</code>
 
-Quando uma decisão possa dar um valor False, ele causa outra linha de código
+Quando uma decisão possa dar um valor 0, ele causa outra linha de código
 
 ```c
 if(teste_logico)
 {
-    // Código se der True
+    // Código se der 1
 }
 else
 {
-    // Código se der False
+    // Código se der 0
 }
 ```
 
@@ -117,17 +117,17 @@ scanf("%d", &parametro);
 
 switch(parametro)
 {
-    case 1 : printf('Entrada foi 1');
+    case 1 : printf("Entrada foi 1");
     break;
-    case 2 : printf('entrada foi 2');
+    case 2 : printf("entrada foi 2");
     break;
-    case 3 : printf('entrada foi 3');
+    case 3 : printf("entrada foi 3");
     break;
-    case 4 : printf('entrada foi 4');
+    case 4 : printf("entrada foi 4");
     break;
-    case 5 : printf('entrada foi 5');
+    case 5 : printf("entrada foi 5");
     break;
-    default : printf('Entrada não permitida');    
+    default : printf("Entrada não permitida");    
 }
 ```
 
