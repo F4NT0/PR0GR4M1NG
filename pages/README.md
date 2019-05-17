@@ -5,3 +5,10 @@
     * `org_`  : São diretórios com informações de organização de uma tecnologia
     * `tut_`  : São diretórios onde possui o tutorial de alguma coisa
     * `tech_` : São diretórios que possuem informações de uma tecnologia especifica 
+
+# Dentro de cada Diretório tem dois arquivos excenssiais:
+
+Nome Arquivo|Utilidade
+|---|---|
+README.md| Arquivo de organização do Diretório Especifico
+home.md| Arquivo que serve como Menu Principal de cada diretório
