@@ -22,4 +22,5 @@ Link da Página|Resumo
 [Estrutura de um arquivo C e tipos de Dados](../prog_c/estrutura.md)| Entendendo as bibliotecas básicas e os tipos de dados em C
 [Como Funcionam Estruturas de Decisões](../prog_c/estrutura-decisao.md)| Entendendo como funciona Estruturas de Decisões
 [Como Funciona Estrutura de Repetições](../prog_c/estrutura-repeticao.md)| Entendendo como funciona Estruturas de Repetições
+[Estruturas de Dados Básicas](../prog_c/estrutura-dados.md)| Entendendo como funciona as Estruturas de Dados simples(Vetores e Matrizes)
 

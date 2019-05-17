@@ -96,3 +96,5 @@ Nome do tipo de dado|Comando de I/O
  <code style="color : fuchsia">Float</code>| <code style="color : fuchsia">%f</code>
  <code style="color : gold">Char</code>|<code style="color : gold">%c</code>
  <code style="color : orange">Vetores de Chars(String)</code>|<code style="color : orange">%s</code>
+ <code style="color : red">Hexadecimal sem sinal(minusculas)</code>|<code style="color : red">%x</code>
+ <code style="color : tomato">Hexadecimal sem sinal(maiusculas)</code>|<code style="color : tomato">%X</code>
