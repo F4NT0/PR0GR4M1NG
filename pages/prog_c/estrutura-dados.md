@@ -38,10 +38,11 @@ O valor 5 está na Posição <code style="color : chartreuse">4</code> do Vetor
 
 
 
-* Para criar um vetor, faça como a seguinte estrutura
+* Para criar um vetor, faça como a seguinte estrutura:
+    * <code style="color : dodgerblue">tipo_estrutura</code> <code style="color : orange">nome_vetor</code> <code style="color : gold ">[numero_elementos]</code>
 
 ```c
-// tipo_dos_valores nome_do_vetor[numero_de_elementos];
+//exemplo 
 
 int vetor[10];
 ```
@@ -102,7 +103,7 @@ Uma <code style="color : lightblue">Matriz</code> é um vetor multidimensional, 
 #### Criando uma Matriz
 
 * Estrutura de construção:
-  * <code style="color : blue">tipo_estrutura </code> <code style="color : orange"> nome_matriz</code> <code style="color : gold">[numero_linhas]</code> <code style="color : salmon">[numero_colunas]</code>
+  * <code style="color : dodgerblue">tipo_estrutura </code> <code style="color : orange"> nome_matriz</code> <code style="color : gold">[numero_linhas]</code> <code style="color : salmon">[numero_colunas]</code>
 
 ```c
 //exemplo
@@ -137,6 +138,7 @@ matriz[0][0] = 1;
 matriz[0][1] = 2;
 matriz[0][2] = 3;
 matriz[0][3] = 4;
+
 matriz[0][4] = 5;
 matriz[1][0] = 6;
 matriz[1][1] = 7;
