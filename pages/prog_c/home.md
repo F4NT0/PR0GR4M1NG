@@ -24,3 +24,4 @@ Link da Página|Resumo
 [Como Funciona Estrutura de Repetições](../prog_c/estrutura-repeticao.md)| Entendendo como funciona Estruturas de Repetições
 [Estruturas de Dados Básicas](../prog_c/estrutura-dados.md)| Entendendo como funciona as Estruturas de Dados simples(Vetores e Matrizes)
 [Trabalhando com Strings](../prog_c/strings.md)| Entendendo como mexer com Strings em C
+[Como Funciona Funções em C(Modularização)](../prog_c/funcoes.md)| Entendendo como Construir Funções e como utilizá-las

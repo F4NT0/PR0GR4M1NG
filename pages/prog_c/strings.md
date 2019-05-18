@@ -74,6 +74,10 @@ Função|Descrição
 <code style="color : deepskyblue">strcat(s1,s2)</code>|Concatena a String do vetor s1 no final da String do vetor s2
 <code style="color : deepskyblue">strlen(s1)</code>| apresenta o tamanho do vetor da String
 <code style="color : deepskyblue">strcmp(s1,s2)</code>|Retorna 0 se s1 é igual a s2, menor que zero se s1 < s2 e maior que zero se s1 > s2
+<code style="color : deepskyblue">strchr(s1,ch)</code>| Retorna o Ponteiro da primeira ocorrencia do caractere na variavel ch na String s1
+<code style="color : deepskyblue">strstr(s1,s2)</code>| Retorna o Ponteiro da primeira ocorrencia da String s2 na String s1
+
+
 
 
  
