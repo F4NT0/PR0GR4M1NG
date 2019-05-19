@@ -27,3 +27,10 @@ Link da Página|Resumo
 [Trabalhando com Strings](../prog_c/strings.md)| Entendendo como mexer com Strings em C
 [Como Funciona Funções em C(Modularização)](../prog_c/funcoes.md)| Entendendo como Construir Funções e como utilizá-las
 [O que São Structs, conhecido tambem como Registros](../prog_c/structs.md)| Entendendo e Construindo como um Struct Funciona
+
+**Software Básico**
+
+Link da página|Resumo
+|---|---|
+[Manipulação de Bits](../prog_c/bits-manipulacao.md)| Entenda como fazer manipulação de Bits em C
+

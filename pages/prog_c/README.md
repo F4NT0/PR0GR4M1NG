@@ -24,7 +24,7 @@ estrutura-repeticao.md|:heavy_check_mark:
 estrutura-dados.md| :heavy_check_mark:
 strings.md| :heavy_check_mark:
 funcoes.md| :heavy_check_mark:
-structs.md| :x:
+structs.md| :heavy_check_mark:
 bits-manipulacao.md| :x:
 escrevendo-arquivo.md| :x:
 lendo-arquivo.md|:x:
