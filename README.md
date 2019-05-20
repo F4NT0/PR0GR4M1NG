@@ -36,6 +36,6 @@ Link para Página|Informações|Imagem
 
 Link para Página|Informações|Imagem
 |---|---|---|
-[Mexendo com o Shell CLI do Linux](pages/term_linux/home.md)| Estudos do Terminal do Linux|<img src="img/terminal.png" width="250">
-[Mexendo com o Shell CLI Prompt de Comando do Windows](pages/term_prompt/home.md)| Estudos do Terminal Prompt de Comando|<img src="img/win-terminal.png" width="200">
+[Mexendo com o Shell CLI do Unix](pages/term_linux/home.md)| Estudos do Terminal do Unix|<img src="img/linux-terminal.png" width="250">
+[Mexendo com o Shell CLI Prompt de Comando do Windows](pages/term_prompt/home.md)| Estudos do Terminal Prompt de Comando|<img src="img/win-terminal.png" width="150">
 [Mexendo com o Shell CLI Powershell do Windows](pages/term_powershell/home.md)| Estudos do Terminal Prompt de Comando|<img src="img/power-terminal.png" width="100">
