@@ -13,6 +13,7 @@
 * É muito fácil abrir arquivos em python, utilizamos a função `open()`
 * A função **Open()** recebe como parâmetro o nome do arquivo desejado e a forma como deseja mexer nele
 * construção básica:
+
 ```python
 meu_arquivo = open('nomeArquivo.txt','forma')
 ```

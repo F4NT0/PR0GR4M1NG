@@ -8,6 +8,7 @@
 
 * Utilizamos a função `input()` para poder entrar informações do usuário no seu sistema
 * Para utilizarmos o input , chamamos a função dentro de uma variável:
+
 ```python
 variavel = input('mensagem de input')
 ```

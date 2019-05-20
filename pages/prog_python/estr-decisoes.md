@@ -89,6 +89,7 @@ Podemos verificar elementos de uma lista no if/else tambem
 
 **Verificando se está na lista:**
 * usamos a palavra reservada `in` para ver se existe o elemento
+
 ```python
 # PRIMEIRA FORMA
 lista = ['Gabriel','Pedro','Igor']
@@ -118,6 +119,7 @@ variavel_2 in lista2 # False
 ```
 **Verificando se não está na lista:**
 * usamos a palavra reservada `not in` para ver se não existe o elemento
+
 ```python
 # PRIMEIRA FORMA
 lista = ['Gabriel','Pedro','Igor']
@@ -150,6 +152,7 @@ variavel_2 not in lista2 # True
 ### Usando variaveis booleanas 
 
 * Podemos usar uma variavel booleana e depois alterar seu valor dentro de uma instrução if/else
+
 ```python
 # Exemplo de Variaveis booleanas
 valor  = True
@@ -164,6 +167,7 @@ Existem algumas formas de fazer essas instruções:
 
 **INSTRUÇÃO DE IF UNICO**
 * podemos somente ter uma instrução if ou vários if juntos, usando cada um dos testes condicionais
+
 ```python
 # CONSTRUÇÃO DE UM IF NORMAL VAZIO
 

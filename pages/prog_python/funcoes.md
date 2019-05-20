@@ -78,6 +78,7 @@ get_nome('Gabriel')
     * 2) **`Argumento Nomeado`** : podemos fazer de duas formas esse argumento, podemos criar a variavel externamente ou internamente no Parâmetro
         * Se for feito **Externamente** não importa o nome que dermos para a variavel
         * Se for **Internamente** deve ser dito exatamente qual **atributo estamos argumentando**
+
 ```python
 # Função
 def bicho(nome_bicho,tipo_bicho):

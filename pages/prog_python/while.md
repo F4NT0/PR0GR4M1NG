@@ -8,12 +8,14 @@
 * A estrutura de um while é bem simples
 * Um `Laço While` serve para manter algo acontecendo quanto tempo quisermos
 * sempre que a instrução dada a um while for um **True booleano** ele se mantem rodando o while
+
 ```python
 # Construção básica de um while
 while instrucao:
     infos
 ```
 Se não colocarmos uma forma de para o while iremos fazer um `loop infinito`
+
 ```python
 # EXEMPLO DE LOOP INFINITO
 booleano = True

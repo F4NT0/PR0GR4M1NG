@@ -19,6 +19,7 @@
   * **Lista de vários tipos**: é uma lista que armazena valores de vários tipos de dados diferentes 
 
 * Exemplo:
+
 ```python
 # CRIANDO UMA LISTA VAZIA
 valores = []
@@ -81,6 +82,7 @@ for i in range(len(valores)):
   * 4) **Adicionando valores com uma função criada**: podemos criar uma funcao que ira adicionar elementos
 
 * Exemplos
+
 ```python
 # MÉTODO 1: ADICIONANDO VALORES COM APPEND(VALOR)
 

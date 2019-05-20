@@ -28,6 +28,7 @@ dicionario = {
     4 : 'Vinicius'  
 }
 ```
+
 ```python
 dicionario = {1:'Gabriel',2:'Pedro',3:'Larissa',4:'Vinicius'}
 ```
@@ -42,6 +43,7 @@ dicionario = {chave_arbitraria : valor}
 print(dicionario[chave_arbitraria])
 ```
 * Exemplo
+
 ```python
 dicionario = {
     1 : 'Gabriel'

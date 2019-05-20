@@ -11,7 +11,8 @@
 #### Comentarios em python
 * colocar uma "#" faz com que toda a linha vire um comentário
 * print() serve para imprimir uma mensagem na tela
- ```python
+ 
+```python
 # esta linha é um comentário
 print('Esta é uma forma de imprimir informação')
 print("Esta tambem é uma forma de imprimir informação")
@@ -29,6 +30,7 @@ print(nome_complexo) # imprime o nome complexo como na primeira variavel
 ```
 
 #### Números armazenados em Variáveis
+
 ```python
 
 # Números inteiros
@@ -71,6 +73,7 @@ resto_segundo = 5 % 3 # o valor da variavel será 1 devido que sobra 1 da divis�
 
 * `None` é utilizado na ausencia de valores
 * na maioria das linguagens é utilizado o Null
+
 ```python
 variavel = None
 ```
@@ -109,6 +112,7 @@ print("\nPython") #colocao texto numa nova linha
 
 #### Tipo de Dado Booleano
 * Booleano é sempre `True` ou `False`
+
 ```python
 # CRIANDO VARIAVEL BOOLEANA
 valor = True
@@ -120,6 +124,7 @@ valor_2 = False
 
 #### Incrementando valores nas propria variaveis
 * Podemos incrementar valores em uma variavel de 3 formas:
+
 ```python
 # incrementando um valor com ele mesmo
 valor = 0
