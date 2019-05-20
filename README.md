@@ -22,8 +22,8 @@ Link para Página|Informações|Imagem
 |---|---|---|
 [Página inicial de Java](pages/prog_java/home.md)|Estudos da Linguagem Java|<img src="img/java-icon.jpg" width="100">
 [Página inicial de C](pages/prog_c/home.md)| Estudos da Linguagem C|<img src="img/c-icon.png" width="100">
-[Página inicial de Python](pages/prog_python/home.md)| Estudos da Linguagem Python|<img src="img/python-icon.jpg" width="100">
-[Página inicial de Javascript](pages/prog_javascript/home.md)| Estudos da Linguagem Javascript|<img src="img/js-icon.png" width="80">
+[Página inicial de Python](pages/prog_python/home.md)| Estudos da Linguagem Python|<img src="img/python-icon.jpg" width="80">
+[Página inicial de Javascript](pages/prog_javascript/home.md)| Estudos da Linguagem Javascript|<img src="img/js-icon.png" width="60">
 
 **PÁGINAS DE TECNOLOGIAS APRENDIDAS**
 
