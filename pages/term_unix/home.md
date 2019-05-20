@@ -26,3 +26,4 @@
 Link da Página|Resumo
 |---|---|
 [Comandos do Terminal do Linux Mint](../term_unix/mint-command.md)| Lista de Comandos para utilizar no Terminal do Linux Mint
+[Configurando o seu Terminal](../term_unix/config-screen.md)| Como configurar a sua tela do Terminal
