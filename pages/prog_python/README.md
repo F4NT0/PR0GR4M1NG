@@ -16,14 +16,14 @@ Glossário de Emojis:
 
 Nome da Página|Status
 |---|---|
-home.md|:heavy_plus_sign:
-tipos_de_dados.md|:heavy_plus_sign:
-if_else|:heavy_plus_sign:
-input|:heavy_plus_sign:
-for|:heavy_plus_sign:
-while|:heavy_plus_sign:
-listas|:heavy_plus_sign:
-funcoes|:heavy_plus_sign:
-arquivos|:heavy_plus_sign:
-tratamento_erros|:heavy_plus_sign:
-dicionarios|:heavy_plus_sign:
+home.md|:heavy_check_mark:
+tipos-dados.md|:heavy_check_mark:
+estr-decisoes.md|:heavy_check_mark:
+input.md|:heavy_check_mark:
+for.md|:heavy_check_mark:
+while.md|:heavy_check_mark:
+listas.md|:heavy_check_mark:
+funcoes.md|:heavy_check_mark:
+arquivos.md|:heavy_check_mark:
+try-catch.md|:heavy_check_mark:
+dicionarios.md|:heavy_check_mark:
