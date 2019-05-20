@@ -4,7 +4,8 @@
     * `prog_` : São diretórios com informações de uma linguagem especifica
     * `org_`  : São diretórios com informações de organização de uma tecnologia
     * `tut_`  : São diretórios onde possui o tutorial de alguma coisa
-    * `tech_` : São diretórios que possuem informações de uma tecnologia especifica 
+    * `tech_` : São diretórios que possuem informações de uma tecnologia especifica
+    * `term_` : São diretórios com informações de Terminais de diferentes Sistemas Operacionais 
 
 # Dentro de cada Diretório tem dois arquivos excenssiais:
 

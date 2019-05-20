@@ -30,3 +30,12 @@ Link para Página|Informações|Imagem
 Link para Página|Informações|Imagem
 |---|---|---|
 [Página inicial de Docker](pages/org_docker/home.md)| Estudos da Tecnologia Docker|<img src="img/docker-icon.png" width="100">
+
+
+**MEXENDO COM TERMINAIS**
+
+Link para Página|Informações|Imagem
+|---|---|---|
+[Mexendo com o Shell CLI do Linux](pages/term_linux/home.md)| Estudos do Terminal do Linux|<img src="img/terminal.png" width="250">
+[Mexendo com o Shell CLI Prompt de Comando do Windows](pages/term_prompt/home.md)| Estudos do Terminal Prompt de Comando|<img src="img/win-terminal.png" width="200">
+[Mexendo com o Shell CLI Powershell do Windows](pages/term_powershell/home.md)| Estudos do Terminal Prompt de Comando|<img src="img/power-terminal.png" width="100">
