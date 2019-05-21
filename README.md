@@ -39,3 +39,9 @@ Link para Página|Informações|Imagem
 [Mexendo com o Shell CLI do Unix](pages/term_unix/home.md)| Estudos do Terminal do Unix|<img src="img/linux-terminal.png" width="100">
 [Mexendo com o Shell CLI Prompt de Comando do Windows](pages/term_prompt/home.md)| Estudos do Terminal Prompt de Comando|<img src="img/win-terminal.png" width="100">
 [Mexendo com o Shell CLI Powershell do Windows](pages/term_powershell/home.md)| Estudos do Terminal Prompt de Comando|<img src="img/power-terminal.png" width="100">
+
+**CRIANDO AS PÁGINAS DESTE WEBSITE**
+
+Link para Página|Informações|Imagem
+|---|---|---|
+[Como fazer uma Página com Markdown](pages/tut_pages/home.md)|Como construir Páginas com Markdown para Github Pages|<img src="img/md-icon.png" width="140">
