@@ -16,7 +16,7 @@ Glossário de Emojis:
 
 Nome da Página|Status
 |---|---|
-variaveis.js.md|:heavy_plus_sign:
-math.md|:heavy_plus_sign:
-control.md|:heavy_plus_sign:
-functions.md|:heavy_plus_sign:
+basico.md|:heavy_check_mark:
+math.md|:heavy_check_mark:
+dec-rep.md|:heavy_check_mark:
+functions.md|:heavy_check_mark:
