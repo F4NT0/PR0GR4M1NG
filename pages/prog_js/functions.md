@@ -48,7 +48,7 @@ minhaFuncao();
 * Os parâmetros de uma função são os nomes listados na definição da função
 
 ```javascript
-funcion nomeFuncao(parametro1,parametro2,parametro3,...){
+function nomeFuncao(parametro1,parametro2,parametro3,...){
   //código para ser executado
 }
 ```
@@ -79,6 +79,7 @@ numero(23); //chamando o valor desejado direto na chamada de uma função
 * Assim como podemos chamar quantas vezes quisermos a função, podemos definir um valor diferente para os parâmetros
 * Podemos fazer vários testes com a função desse jeito
 * Podemos ter multiplos parâmetros, mas quando formos chama-los deve ter uma ordem de entrada
+
 ```javascript
 //iniciando uma função
 function funcao(nome,idade){
