@@ -16,6 +16,7 @@ Glossário de Emojis:
 
 Nome da Página|Status
 |---|---|
+bases-numericas|:heavy_check_mark:
 home.md|:heavy_check_mark:
 tipos-dados.md|:heavy_check_mark:
 estr-decisoes.md|:heavy_check_mark:

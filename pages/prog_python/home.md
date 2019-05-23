@@ -22,6 +22,7 @@
 
 Link da Página|Resumo
 |---|---|
+[Revisão de Bases Numéricas](../prog_python/bases-numericas.md)| Revisão dos Tipos de Bases Numericas mais Usadas
 [Tipos Basicos em python](../prog_python/tipos-dados.md)| Explicando o basico de como funcionam as Estruturas Basicas de Python
 [Estrutura de Decisoes em Python](../prog_python/estr-decisoes.md)| Entendendo o Que se precisa para construir uma Estrutura de Decisão (If/Else)
 [Como fazer input em Python](../prog_python/input.md)| Entenda como fazer input no Python

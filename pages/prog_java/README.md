@@ -20,6 +20,7 @@ _Em manutenção_
 
 Nome da Página|Status
 |---|---|
+bases-numericas.md|:heavy_check_mark:
 home.md|:heavy_check_mark: 
 class_model.md|:heavy_check_mark:
 genericos.md|:heavy_check_mark:

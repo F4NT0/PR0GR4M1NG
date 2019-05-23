@@ -16,6 +16,7 @@ Glossário de Emojis:
 
 Nome da Página|Status
 |---|---|
+bases-numericas.md|:heavy_check_mark:
 basico.md|:heavy_check_mark:
 math.md|:heavy_check_mark:
 dec-rep.md|:heavy_check_mark:

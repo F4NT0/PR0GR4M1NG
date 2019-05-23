@@ -22,6 +22,7 @@
 
 link da Página|Resumo
 |---|---|
+[Revisão de Bases Numéricas](../prog_js/bases-numericas.md)|Revisão dos tipos de Bases Numéricas Usadas
 [Estruturas Básicas em Javascript](../prog_js/basico.md)| Entendo as Principais informações da Linguagem
 [Matemática em Javascript](../prog_js/math.md)| Como funciona Matemática em Javascript
 [Estruturas de Decisões e Repetições](../prog_js/dec-rep.md)| Como funcionam as Estruturas de Decisões e Repetições em Javascript

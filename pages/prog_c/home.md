@@ -36,5 +36,6 @@ Link da Página|Resumo
 
 Link da página|Resumo
 |---|---|
+[Revisão de Bases Numéricas](../prog_c/bases-numericas.md)| Entenda como funcionam as Bases Numéricas nessa Revisão
 [Manipulação de Bits](../prog_c/bits-manipulacao.md)| Entenda como fazer manipulação de Bits em C
 

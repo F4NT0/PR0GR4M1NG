@@ -19,7 +19,9 @@ Todo conhecimento básico de Java
 
 **Básico da Linguagem Java**
 
-_EM MANUTENÇÃO_
+Link da Página|Resumo
+|---|---|
+[Revisando tipos de Bases Numéricas](../prog_java/bases-numericas.md)| Revisão de Tipos de Bases Numéricas
 
 ---
 
