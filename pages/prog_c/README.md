@@ -17,6 +17,7 @@ Glossário de Emojis:
 Nome da Página|Status
 |---|---|
 bases-numericas.md|:heavy_check_mark:
+bases-usos.md|:heavy_check_mark:
 compilador.md|:heavy_check_mark:
 estrutura-basica.md| :heavy_check_mark:
 tipos-dados.md| :heavy_check_mark:
