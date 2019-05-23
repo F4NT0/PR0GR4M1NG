@@ -21,7 +21,7 @@ unsigned int var;
 
 var = 254; //em Decimal
 var = 0xFE; //em Hexadecimal
-var = 0b111111110 //em Binário
+var = 0b111111110; //em Binário
 ```
 
 **Saídas em C das Bases Numéricas**
