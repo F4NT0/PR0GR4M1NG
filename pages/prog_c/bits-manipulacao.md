@@ -43,7 +43,7 @@ Precisa se entender o Básico das Seguinte Páginas Já adicionadas:
 
 Iremos usar os Operadores Lógicos já usuais por nós, só que de vez de verificar um única vez(um único valor) iremos verificar bit a bit de um valor Binário, como iremos mostrar mais a frente
 
-<code style="color : gold">Se é testado Bit á Bit da Direita para a Esquerda</code>
+<code style="color : gold">É testado Bit á Bit da Direita para a Esquerda</code>
 
 
 Operadores Lógicos que iremos usar:
@@ -367,6 +367,13 @@ Etapa 10: Será adicionado um zero na posição Vazia
 pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
 |---|---|---|---|---|---|---|---|
 |<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|
+
+Etapa 11: Remodelação do Vetor para o novo valor
+
+pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|
+<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|
+
 
 O Novo valor que será armazenado na Nova variavel será <code style="color: fuchsia">0x17</code> que em Decimal é <code style="color : yellow">23</code>
 
