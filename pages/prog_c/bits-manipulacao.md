@@ -151,11 +151,236 @@ Entrada 2 | Resultado Lógico
 ---
 
 <center>
-    <code style="color : aquamarine">Operadores de Deslocamento</code>
+    <code style="color : aquamarine">Operadores de Deslocamento (shifting)</code>
 </center>
 
 ---
 
+<code style="color : aquamarine">Deslocamento(shifting)</code> deslocam os bits para a <code style="color : gold">Direita</code> ou para a <code style="color : gold">Esquerda</code> dependendo do que se Deseja fazer
+
+Quando é movido os bits podem ficar espaços vazios e se existirem <code style="color : gold">são preenchidos com zeros</code>
+
+Podemos utilizar Deslocamento junto com Operadores Lógicos
+
+## Shift para a Esquerda
+
+Usamos o operador específico <code style="color : aqua"><<</code>
+
+* Argumentos necessários para fazer o Shift:
+    * Valor a ser deslocado
+    * Quantidades de bits para a esquerda desejados
+    * O valor original não é mexido, deve ser criado outra variavel com o Valor
+
+Exemplo:
+
+Pegamos o valor <code style="color : yellow">23</code> 
+
+Armazenamos esse valor Decimal em Hexadecimal em uma Variável:
+
+```c
+unsigned int x = 0x17;
+```
+
+* O programa irá fazer o Seguinte:
+    * Transformar o Valor em Binário
+    * Mover o Número de bits para a esquerda pelo número de casas especificado
+    * Adicionar zeros nos espaços vazios
+    * Armazenar o novo valor na nova Variável
+
+<code style="color : yellow">23</code> em Binário é <code style="color : greenyellow">00010111</code>
+
+Queremos mover <code style="color : gold">Uma</code> casa a esquerda, ele irá pegar bita á bit e empurrar para a esquerda
+
+Vetor Original:
+
+pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|
+|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">1</code>|
+
+Vetor fazendo o <code style="color : aquamarine">shifting</code>:
+
+Etapa 1: Será adicionado uma nova posição na Extrema Esquerda
+
+pos 8|pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|---|
+<code style="color : red">NULL</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">1</code>|
+
+Etapa 2: Será movido o valor da Posição 7 para a nova posição
+
+pos 8|pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|---|
+<code style="color : aquamarine">0</code>|<code style="color : greenyellow"></code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">1</code>|
+
+Etapa 3: Será movido o valor da Posição 6 para a Posição 7
+
+pos 8|pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|---|
+<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : greenyellow"></code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">1</code>|
+
+Etapa 4: Será movido o valor da Posição 5 para a Posição 6
+
+pos 8|pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|---|
+<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : greenyellow"></code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">1</code>|
+
+Etapa 5: Será movido o valor da Posição 4 para a Posição 5
+
+pos 8|pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|---|
+<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : greenyellow"></code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">1</code>|
+
+Etapa 6: Será movido o valor da Posição 3 para a Posição 4
+
+pos 8|pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|---|
+<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">0</code>|<code style="color : greenyellow"></code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">1</code>|
+
+Etapa 7: Será movido o valor da Posição 2 para a Posição 3
+
+pos 8|pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|---|
+<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : greenyellow"></code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">1</code>|
+
+Etapa 8: Será movido o valor da Posição 1 para a Posição 2
+
+pos 8|pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|---|
+<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|<code style="color : greenyellow"></code>|<code style="color : greenyellow">1</code>|
+
+Etapa 9: Será movido o valor da Posição 0 para a Posição 1
+
+pos 8|pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|---|
+<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|<code style="color : red">NULL</code>|
+
+Etapa 10: Adicionar Zeros nos Espaços vazios
+
+pos 8|pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|---|
+<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">0</code>|
+
+Valor Armazenado na nova Variável será <code style="color : fuchsia">0x2E</code> em Decimal <code style="color : yellow">46</code>
+
+**Fazendo isso em C**
+
+```c
+#include<stdio.h>
+
+unsigned int valor = 0x17; //23 em Decimal
+unsigned int novoValor = valor << 1;
+
+printf("Valor antigo: %d\n", valor);
+printf("Valor apos shifting: %d\n", novoValor);
+```
+
+## Shift para a Direita
+
+Usamos o Operador Especifico <code style="color : aquamarine">>></code>
+
+* Argumentos necessários para fazer o <code style="color : aquamarine">shitf</code>
+    * Valor a ser deslocado
+    * Quantidades de bits para deslocar
+    * O valor original fica inalterado, já que estamos trabalhando com outra Variavel
+
+Exemplo:
+
+Pegamos o valor <code style="color : yellow">46</code>
+
+Armazenamos esse valor Decimal em Hexadecimal
+
+```c
+unsigned int valor = 0x2E;
+```
+
+* O que o programa irá fazer:
+    * Será apagado o Valor da primeira Posição na Extrema Direita(LSB)
+    * Ele irá pegar os bits na extrema direita e mover para a Direita bit a bit
+    * Irá adicionar Zeros em todos os espaços vazios deixados
+    * Irá armazenar o valor na nova variavel
+
+<code style="color : yellow">46</code> em Binário é <code style="color : yellowgreen">00101110</code>
+
+Queremos mover <code style="color : gold">Uma</code> casa a Direita, então ele irá pegar bit á bit e empurrar para a Esquerda
+
+Vetor Original:
+
+pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|
+|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">0</code>|
+
+Etapa 1: Será Apagado o Valor da Primeira Posição na Extrema Direita
+
+pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|
+|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">1</code>|<code style="color : red">NULL</code>|
+
+Etapa 2: Será movido o valor da Posição 1 para a Posição 0
+
+pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|
+|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow"></code>|<code style="color : aquamarine">1</code>|
+
+Etapa 3: Será movido o valor da Posição 2 para a Posição 1
+
+pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|
+|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow"></code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|
+
+Etapa 4: Será movido o valor da Posição 3 para a Posição 2
+
+pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|
+|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow"></code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|
+
+Etapa 5: Será movido o valor da Posição 4 para a Posição 3
+
+pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|
+|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">1</code>|<code style="color : greenyellow"></code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|
+
+Etapa 6: Será movido o valor da Posição 5 para a Posição 4
+
+pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|
+|<code style="color : greenyellow">0</code>|<code style="color : greenyellow">0</code>|<code style="color : greenyellow"></code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|
+
+Etapa 7: Será movido o valor da Posição 6 para a 5
+
+pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|
+|<code style="color : greenyellow">0</code>|<code style="color : greenyellow"></code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|
+
+Etapa 8: Será movido o valor da Posição 7 para a Posição 6
+
+pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|
+|<code style="color : greenyellow"></code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|
+
+Etapa 9: A posição 7 ficará NULL
+
+pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|
+|<code style="color : red">NULL</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|
+
+Etapa 10: Será adicionado um zero na posição Vazia
+
+pos 7|pos 6|pos 5|pos 4|pos 3|pos 2|pos 1|pos 0
+|---|---|---|---|---|---|---|---|
+|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">0</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|<code style="color : aquamarine">1</code>|
+
+O Novo valor que será armazenado na Nova variavel será <code style="color: fuchsia">0x17</code> que em Decimal é <code style="color : yellow">23</code>
+
+**Fazendo isso em C**
+
+```c
+#include<stdio.h>
+
+unsigned int valor = 0x2E; //46 em Hexadecimal
+unsigned int novoValor = valor >> 1; //mover um bit a direita
+
+printf("Valor Original: %d\n", valor);
+printf("Valor Novo: %d\n", novoValor);
+```
 
 
 
