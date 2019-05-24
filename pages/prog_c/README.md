@@ -28,6 +28,7 @@ strings.md| :heavy_check_mark:
 funcoes.md| :heavy_check_mark:
 structs.md| :heavy_check_mark:
 bits-manipulacao.md| :heavy_check_mark:
+campos-bits.md| :x:
 escrevendo-arquivo.md| :x:
 lendo-arquivo.md|:x:
 modularizacao.md|:x:
