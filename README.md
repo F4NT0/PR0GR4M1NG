@@ -45,3 +45,9 @@ Link para Página|Informações|Imagem
 Link para Página|Informações|Imagem
 |---|---|---|
 [Como fazer uma Página com Markdown](pages/tut_pages/home.md)|Como construir Páginas com Markdown para Github Pages|<img src="img/md-icon.png" width="140">
+
+**APRENDA COMPUTAÇÃO**
+
+Link para Página|Informações|Imagem
+|---|---|---|
+[Estrutura de Dados](pages/tut_ds/home.md)| Entenda e Construa os Algoritmos de Estrutura de Dados|<img src="img/ds_icon.png" width="100">
