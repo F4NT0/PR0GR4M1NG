@@ -113,18 +113,27 @@ Portanto em Resumo temos as seguintes verificações:
 <center>
     <img src="../../img/grafo_ndirigido.png">
 
+---
 
 <code style="color: greenyellow">V</code>(<code style="color: fuchsia">G1</code>) = {<code style="color: greenyellow">V1</code>,<code style="color: GREENYELLOW">V2</code>,<code style="color: greenyellow">V3</code>,<code style="color: greenyellow">V4</code>}
 
 <code style="color: aquamarine">A</code>(<code style="color: fuchsia">G1</code>) = {(<code style="color: aquamarine">V1</code>,<code style="color: aquamarine">V2</code>),(<code style="color: aquamarine">V1</code>,<code style="color: aquamarine">V3</code>),(<code style="color: aquamarine">V2</code>,<code style="color: aquamarine">V3</code>),(<code style="color: aquamarine">V2</code>,<code style="color: aquamarine">V4</code>),(<code style="color: aquamarine">V3</code>,<code style="color: aquamarine">V4</code>)}
+
+---
+
 </center>
 
 <center>
     <img src="../../img/grafo_dirigido.png">
 
+---
 <code style="color: greenyellow">V</code>(<code style="color: fuchsia">G2</code>) = {<code style="color: greenyellow">V1</code>,<code style="color: greenyellow">V2</code>,<code style="color: greenyellow">V3</code>,<code style="color: greenyellow">V4</code>}
 
+
 <code style="color : aquamarine">A</code>(<code style="color : fuchsia">G2</code>) = {(<code style="color : aquamarine">V1</code>,<code style="color : aquamarine">V2</code>),(<code style="color : aquamarine">V2</code>,<code style="color : aquamarine">V1</code>),(<code style="color : aquamarine">V2</code>,<code style="color : aquamarine">V4</code>),(<code style="color : aquamarine">V2</code>,<code style="color : aquamarine">V3</code>),(<code style="color : aquamarine">V3</code>,<code style="color : aquamarine">V3</code>),(<code style="color : aquamarine">V4</code>,<code style="color : aquamarine">V3</code>),(<code style="color : aquamarine">V4</code>,<code style="color : aquamarine">V1</code>)}
+
+---
+
 </center>
 
 ---
