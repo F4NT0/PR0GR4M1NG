@@ -23,12 +23,19 @@
     <img src="../../img/debian_icon.png" width="100">
 </center>
 
+<br>
+<br>
+
 <center>
     <code style="color : yellow">Melhor User Interface para essas Distros: </code>
     <code style="color : LawnGreen">Cinnamon</code>
 </center>
+<br>
+<br>
 
 ## COMANDOS PARA ESSAS DISTROS
+
+<br>
 
 **Como iniciar um Terminal via Teclado**
 
@@ -36,7 +43,11 @@
     <code style="color : orange">Ctrl + Alt + T</code>
 </center>
 
+<br>
+
 **Como Limpar a Visualização da Tela do Terminal**
+
+<br>
 
 <center>
     <code style="color : yellow">No Terminal: </code>
@@ -47,20 +58,23 @@
 
 </center>
 
+<br>
+<br>
+
+
 ## Comandos que fui aprendendo
 
-Páginas|Informação|Status
-|---|---|---|
-[Instalação e Desinstalação de Programas](../term_unix/ins_programs)| Gerenciamento de Programas no Linux|:heavy_check_mark:
-[Informação do Sistema Linux](../term_unix/system)|Como adquirir informação do sistema|:heavy_check_mark:
-[Comandos de Controle de Diretorios](../term_unix/directory)|Comandos de Gerencia de Diretorios|:heavy_check_mark:
-[Leitura e Renomeio de Arquivos](../term_unix/files)|Gerencia de Arquivos|:heavy_check_mark:
-[Comandos de Compressão](../term_unix/compress)|Descompressando arquivos|:heavy_check_mark:
-[Comandos de Network](../term_unix/network)|Comandos de Network do Linux|:heavy_check_mark:
+Páginas|Informação|
+|---|---|
+[Instalação e Desinstalação de Programas](../term_unix/ins_programs)| Gerenciamento de Programas no Linux
+[Informação do Sistema Linux](../term_unix/system)|Como adquirir informação do sistema
+[Comandos de Controle de Diretorios](../term_unix/directory)|Comandos de Gerencia de Diretorios
+[Leitura e Renomeio de Arquivos](../term_unix/files)|Gerencia de Arquivos
+[Comandos de Compressão](../term_unix/compress)|Descompressando arquivos
+[Comandos de Network](../term_unix/network)|Comandos de Network do Linux
 
-
-
-
+<br>
+<br>
 
 Link da Página|Resumo
 |---|---|
