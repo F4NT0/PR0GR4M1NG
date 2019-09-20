@@ -16,10 +16,12 @@ Glossário de Emojis:
 
 Nome da Página|Status
 |---|---|
-mint-command.md|:heavy_check_mark:
-comandos-ubuntu.md|:heavy_plus_sign:
-comandos-arch.md|:heavy_plus_sign:
-comandos-debian.md|:heavy_plus_sign:
+ins_programs.md|:heavy_check_mark:
+system.md|:heavy_check_mark:
+network.md|:heavy_check_mark:
+files.md|:heavy_check_mark:
+directory.md|:heavy_check_mark:
+compress.md|:heavy_check_mark:
 
 [**`Páginas de Gerenciamento Linux`**]()
 
