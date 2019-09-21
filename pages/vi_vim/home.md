@@ -14,20 +14,26 @@
 <br>
 <br>
 
-Editor de Texto via Terminal para desenvolvimento de codigo mais Rapido 
+<code style="color : yellow">Editor de Texto via Terminal para desenvolvimento de codigo mais Rapido</code> 
 
 <br>
 <br>
 
 <center>
-    <code style="color : yellowgreen">Instalando via Terminal: </code><code style="color : lightblue">sudo apt-get install vim</code>
+    <code style="color : yellowgreen">Instalando via Terminal: </code>
+    <br>
+    <br>
+    <code style="color : lightblue">sudo apt-get install vim</code>
 </center>
 
 <br>
 <br>
 
 <center>
-    <code style="color : yellowgreen">Iniciando via Terminal: </code><code style="color : lightblue">vim </code><code style="color : tomato">nomedoarquivo.extensao</code>
+    <code style="color : yellowgreen">Iniciando via Terminal: </code>
+    <br>
+    <br>
+    <code style="color : lightblue">vim </code><code style="color : magenta">nomedoarquivo.extensao</code>
 </center>
 
 <br>
@@ -41,10 +47,10 @@ Editor de Texto via Terminal para desenvolvimento de codigo mais Rapido
 <center>
     <code style="color : yellowgreen">Iniciando o modo de insercao</code>
     <br>
-    <code style="color : tomato">i</code>
+    <code style="color : magenta">i</code>
     <br>
     <br>
-    Clique no botao do teclado <code style="color : tomato">i</code> no VI e VIM para ativar o modo de insercao de texto
+    Clique no botao do teclado <code style="color : magenta">i</code> no VI e VIM para ativar o modo de insercao de texto
     <br>
     <br>
     Para Sair do modo de Insercao clique em <code style="color : lightblue">ESC</code>
@@ -68,10 +74,10 @@ Editor de Texto via Terminal para desenvolvimento de codigo mais Rapido
 <center>
     <code style="color : yellowgreen">Iniciando modo de comandos do vi e vim </code>
     <br>
-    <code style="color : tomato">:</code>
+    <code style="color : magenta">:</code>
     <br>
     <br>
-    Apos ativar o modo de comando com <code style="color : tomato">:</code> escreva o comando que deseja.
+    Apos ativar o modo de comando com <code style="color : magenta">:</code> escreva o comando que deseja.
     <br>
     <br>
     Para ativar o comando clique em <code style="color : lightblue">ENTER</code>
@@ -88,7 +94,8 @@ Editor de Texto via Terminal para desenvolvimento de codigo mais Rapido
     Para ativar os numeros das paginas, digite o seguinte comando:
     <br>
     <br>
-    <code style="color : tomato">:</code><code style="color : magenta">set nu</code>
+    <code style="color : magenta">:</code><code style="color : magenta">set nu</code>
+    <br>
     <br>
     E depois clique em <code style="color : lightblue">ENTER</code>
     <br>
@@ -122,13 +129,13 @@ Comando | Para que serve
 <center>
     <code style="color : yellowgreen">Pesquisa procurando palavras anteriores </code>
     <br>
-    <code style="color : tomato">/</code>
+    <code style="color : magenta">/</code>
     <br>
     <br>
     <code style="color : white">Exemplo:</code>
     <br>
     <br>
-    <code style="color : tomato">/</code><code style="color : lightblue">palavra</code>
+    <code style="color : magenta">/</code><code style="color : lightblue">palavra</code>
     <br>
 </center>
 <br>
@@ -136,13 +143,13 @@ Comando | Para que serve
 <center>
     <code style="color : yellowgreen">Pesquisa procurando palavras mais a frente </code>
     <br>
-    <code style="color : tomato">?</code>
+    <code style="color : magenta">?</code>
     <br>
     <br>
     <code style="color : white">Exemplo:</code>
     <br>
     <br>
-    <code style="color : tomato">?</code><code style="color : lightblue">palavra</code>
+    <code style="color : magenta">?</code><code style="color : lightblue">palavra</code>
 </center>
 <br>
 <br>
@@ -150,7 +157,7 @@ Comando | Para que serve
     <code style="color : orange">Exemplo</code>
     <br>
     <br>
-    Apos escolhido uma das opcoes, coloque a palavra que procura e clique em ENTER para ir a palavra que procura
+    Apos escolhido uma das opcoes, coloque a palavra que procura e clique em <code style="color : lightblue">ENTER</code> para ir a palavra que procura
     <br>
     <img src="../../gifs/search.gif">
 </center>
@@ -169,7 +176,7 @@ Comando|Para que serve
 ## COMANDOS DE TECLADO UTEIS
 
 <center>
-    Estes comandos servem para modificar o texto fora da forma de insercao, muito uteis para trabalhar com os arquivos
+    <code style="color : yellow">Estes comandos servem para modificar o texto fora da forma de insercao, muito uteis para trabalhar com os arquivos</code>
 </center> 
 
 <br>
@@ -245,33 +252,38 @@ Comando|Para que serve
     <code style="color : lightgreen">COPIANDO E SALVANDO EM OUTRO ARQUIVO</code>
     <br>
     <br>
-    <code style="color : lightblue">1. Ative o modo visual com a tecla </code><code style="color : red ">v</code>
+    <code style="color : yellow">1. Ative o modo visual com a tecla </code><code style="color : magenta ">v</code>
     <br>
-    <code style="color : lightblue">2. Ande com o as setas ate selecionar tudo que deseja copiar</code>
+    <code style="color : yellow">2. Ande com o as setas ate selecionar tudo que deseja copiar</code>
     <br>
-    <code style="color : lightblue">3. Selecione a tecla</code><code style="color : red"> y</code>
+    <code style="color : yellow">3. Selecione a tecla</code><code style="color : magenta"> y</code>
     <br>
-    <code style="color : lightblue">4. Ative a area de comando com</code><code style="color : red"> :</code>
+    <code style="color : yellow">4. Ative a area de comando com</code><code style="color : magenta"> :</code>
     <br>
-    <code style="color : lightblue">5. Coloque o comando</code><code style="color : red"> sh</code>
+    <code style="color : yellow">5. Coloque o comando</code><code style="color : magenta"> sh</code>
     <br>
-    <code style="color : lightblue">6. Va ate o arquivo desejado que deseja colar o texto</code>
+    <code style="color : yellow">6. Va ate o arquivo desejado que deseja colar o texto</code>
     <br>
-    <code style="color : lightblue">7. Abra o arquivo no VI ou VIM</code>
+    <code style="color : yellow">7. Abra o arquivo no VI ou VIM</code>
     <br>
-    <code style="color : lightblue">8. Apos aberto o arquivo va ate a linha desejada com as setas ou com j,k,h,l</code>
+    <code style="color : yellow">8. Apos aberto o arquivo va ate a linha desejada com as setas ou com j,k,h,l</code>
     <br>
-    <code style="color : lightblue">9. Cole o texto com</code><code style="color : red"> p</code><code style="color : lightblue"> ou</code><code style="color : red"> P</code>
+    <code style="color : yellow">9. Cole o texto com</code><code style="color : magenta"> p</code><code style="color : yellow"> ou</code><code style="color : magenta"> P</code>
     <br>
-    <code style="color : lightblue">10. Salve o Arquivo</code>
+    <code style="color : yellow">10. Salve o Arquivo</code>
     <br>
-    <code style="color : lightblue">11. Se quiser voltar ao arquivo anterior, volte ao terminal e selecione no teclado</code><code style="color : red"> CTRL + D</code>
+    <code style="color : yellow">11. Se quiser voltar ao arquivo anterior, volte ao terminal e selecione no teclado</code><code style="color : magenta"> CTRL + D</code>
     <br>
     <br>
     <code style="color : orange">Exemplo</code>
     <br>
     <img src="../../gifs/copy_paste_2.gif">
 
+</center>
+<br>
+<br>
+<center>
+    
 </center>
 
 
