@@ -239,5 +239,39 @@ Comando|Para que serve
     <br>
     <img src="../../gifs/copy_paste.gif">
 </center>
+<br>
+<br>
+<center>
+    <code style="color : lightgreen">COPIANDO E SALVANDO EM OUTRO ARQUIVO</code>
+    <br>
+    <br>
+    <code style="color : lightblue">1. Ative o modo visual com a tecla </code><code style="color : red ">v</code>
+    <br>
+    <code style="color : lightblue">2. Ande com o as setas ate selecionar tudo que deseja copiar</code>
+    <br>
+    <code style="color : lightblue">3. Selecione a tecla</code><code style="color : red"> y</code>
+    <br>
+    <code style="color : lightblue">4. Ative a area de comando com</code><code style="color : red"> :</code>
+    <br>
+    <code style="color : lightblue">5. Coloque o comando</code><code style="color : red"> sh</code>
+    <br>
+    <code style="color : lightblue">6. Va ate o arquivo desejado que deseja colar o texto</code>
+    <br>
+    <code style="color : lightblue">7. Abra o arquivo no VI ou VIM</code>
+    <br>
+    <code style="color : lightblue">8. Apos aberto o arquivo va ate a linha desejada com as setas ou com j,k,h,l</code>
+    <br>
+    <code style="color : lightblue">9. Cole o texto com</code><code style="color : red"> p</code><code style="color : lightblue"> ou</code><code style="color : red"> P</code>
+    <br>
+    <code style="color : lightblue">10. Salve o Arquivo</code>
+    <br>
+    <code style="color : lightblue">11. Se quiser voltar ao arquivo anterior, volte ao terminal e selecione no teclado</code><code style="color : red"> CTRL + D</code>
+    <br>
+    <br>
+    <code style="color : orange">Exemplo</code>
+    <br>
+    <img src="../../gifs/copy_paste_2.gif">
+
+</center>
 
 
