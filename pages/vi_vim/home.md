@@ -162,3 +162,82 @@ Comando|Para que serve
 <code style="color : magenta">/</code>| Pesquisa uma palavra que ja foi escrita, antes do mouse
 <code style="color : magenta">?</code>| Pesquisa uma palavra que esta escrita depois do mouse
 <code style="color : magenta">n</code> | Refaz a pesquisa novamente
+
+<br>
+<br>
+
+## COMANDOS DE TECLADO UTEIS
+
+<center>
+    Estes comandos servem para modificar o texto fora da forma de insercao, muito uteis para trabalhar com os arquivos
+</center> 
+
+<br>
+
+Comando|Para que serve
+|---|---|
+<code style="color : magenta">dd</code> | Deleta uma linha inteira
+<code style="color : magenta">x</code>| Deleta a letra vinda depois do cursor
+<code style="color : magenta">l</code>| Move o Cursor para a Direita na Linha Atual
+<code style="color : magenta">h</code>| Move o Cursor para a Esquerda na Linha Atual
+<code style="color : magenta">j</code>| Move o Cursor para a Linha Abaixo
+<code style="color : magenta">k</code>| Move o Cursor para a Linha Acima
+
+<br>
+
+## CTRL C + CTRL V NO VI E VIM
+
+<center>
+    <code style="color : lightgreen">ATIVE O MODO DE VISUAL</code>
+    <br>
+    <br>
+    <code style="color : magenta">v</code>
+    <br>
+    <code style="color : yellow">Marca palavra por palavra na linha(use as setas para ir marcando)</code>
+    <br>
+    <br>
+    <code style="color : magenta">V</code>
+    <br>
+    <code style="color : yellow">Marca a Linha inteira onde o Cursor estiver</code>
+    <br>
+    <br>
+    <code style="color : orange">Exemplo</code>
+    <br>
+    <img src="../../gifs/visual_mode.gif">
+</center>
+<br>
+<center>
+    <code style="color : lightgreen">COMANDO DE COPIA</code>
+    <br>
+    <br>
+    <code style="color : magenta">y</code>
+    <br>
+    <code style="color : yellow">No modo Visual, apos selecionado o texto desejado, clique em y para copiar o texto</code>
+    <br>
+    <br>
+    <code style="color : magenta">yy</code>
+    <br>
+    <code style="color : yellow">Fora de qualquer sistema, copia toda a linha do cursor</code>
+</center>
+<br>
+<br>
+<center>
+    <code style="color : lightgreen">COMANDO DE COLAR</code>
+    <br>
+    <br>
+    <code style="color : magenta">p</code>
+    <br>
+    <code style="color : yellow">Se direcione a linha que deseja e clique em p para colar o que foi copiado antes do cursor</code>   
+    <br>
+    <br>
+    <code style="color : magenta">P</code>
+    <br>
+    <code style="color : yellow">Se direcione a linha que deseja e clique em p para colar o que foi copiado depois do cursor</code>
+    <br>
+    <br>
+    <code style="color : orange">Exemplo</code>
+    <br>
+    <img src="../../gifs/copy_paste.gif">
+</center>
+
+
