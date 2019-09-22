@@ -191,6 +191,7 @@ Comando|Para que serve
 <code style="color : magenta">j</code>| Move o Cursor para a Linha Abaixo
 <code style="color : magenta">k</code>| Move o Cursor para a Linha Acima
 <code style="color : magenta">u</code>| Desfaz uma modificacao no arquivo
+
 <br>
 
 ## CTRL C + CTRL V NO VI E VIM
