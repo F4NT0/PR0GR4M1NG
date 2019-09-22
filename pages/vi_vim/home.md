@@ -50,12 +50,12 @@
     <code style="color : magenta">i</code>
     <br>
     <br>
-    Clique no botao do teclado <code style="color : magenta">i</code> no VI e VIM para ativar o modo de insercao de texto
+    <code style="color : yellow">Clique no botao do teclado </code><code style="color : magenta">i</code><code style="color : yellow"> no VI e VIM para ativar o modo de insercao de texto</code>
     <br>
     <br>
-    Para Sair do modo de Insercao clique em <code style="color : lightblue">ESC</code>
+    <code style="color : yellow">Para Sair do modo de Insercao clique em </code><code style="color : lightblue">ESC</code>
     <br>
-    O modo de comandos so funciona fora do modo de insercao
+    <code style="color : yellow">O modo de comandos so funciona fora do modo de insercao</code>
     <br>
     <br>
     <code style="color : orange">Exemplo</code>
@@ -77,10 +77,10 @@
     <code style="color : magenta">:</code>
     <br>
     <br>
-    Apos ativar o modo de comando com <code style="color : magenta">:</code> escreva o comando que deseja.
+    <code style="color : yellow">Apos ativar o modo de comando com </code><code style="color : magenta">:</code><code style="color : yellow"> escreva o comando que deseja.</code>
     <br>
     <br>
-    Para ativar o comando clique em <code style="color : lightblue">ENTER</code>
+    <code style="color : yellow">Para ativar o comando clique em </code><code style="color : lightblue">ENTER</code>
     <br>
     <br>
     <code style="color : orange">Exemplo</code>
@@ -91,7 +91,7 @@
 
 <center>
     <br>
-    Para ativar os numeros das paginas, digite o seguinte comando:
+    <code style="color : yellow">Para ativar os numeros das paginas, digite o seguinte comando:</code>
     <br>
     <br>
     <code style="color : magenta">:</code><code style="color : magenta">set nu</code>
@@ -157,7 +157,8 @@ Comando | Para que serve
     <code style="color : orange">Exemplo</code>
     <br>
     <br>
-    Apos escolhido uma das opcoes, coloque a palavra que procura e clique em <code style="color : lightblue">ENTER</code> para ir a palavra que procura
+    <code style="color : yellow">Apos escolhido uma das opcoes, coloque a palavra que procura e clique em </code><code style="color : lightblue">ENTER</code><code style="color : yellow"> para ir a palavra que procura</code>
+    <br>
     <br>
     <img src="../../gifs/search.gif">
 </center>
@@ -189,7 +190,7 @@ Comando|Para que serve
 <code style="color : magenta">h</code>| Move o Cursor para a Esquerda na Linha Atual
 <code style="color : magenta">j</code>| Move o Cursor para a Linha Abaixo
 <code style="color : magenta">k</code>| Move o Cursor para a Linha Acima
-
+<code style="color : magenta">u</code>| Desfaz uma modificacao no arquivo
 <br>
 
 ## CTRL C + CTRL V NO VI E VIM
@@ -282,8 +283,57 @@ Comando|Para que serve
 </center>
 <br>
 <br>
+
+## CONFIGURANDO O VIM
+
 <center>
+    <code style="color : yellow">Existe um arquivo de configuracao para podermos contruir um VIM  configuravel</code>
+    <br>
+    <br>
+    <code style="color : lightgreen">Criando arquivo para configurar</code>
+    <br>
+    <br>
+    <code style="color : yellow">Crie um arquivo oculto no Diretorio</code><code style="color : lightblue"> HOME</code><code style="color : yellow"> chamado </code><code style="color : lightblue">.vimrc</code>
+    <br>
+    <br>
+    <code style="color : yellow">Digite nesse arquivo as configuracoes desejadas que precisa</code>
+    <br>
+    <br>
+    <code style="color : yellow">Abaixo um exemplo de configuracao</code>
+    <br>
+    <br>
+    <code style="color : yellow">Apos escrito a configuracao, salve o arquivo, se nao salvar automativamente, digite no terminal:</code>
+    <br>
+    <br>
+    <code style="color : lightgreen">source ~/.vimrc</code>
     
 </center>
 
+```vim
+
+" -------------------------------
+"  ARQUIVO DE CONFIGURACAO DO VIM
+" -------------------------------
+
+" iniciar a sintaxe das linguagens de programacao
+syntax on
+
+" Apresentar o numero das linhas
+set number
+
+" Indentar novas linhas
+set autoindent
+
+" Verifica o que e escrito
+set spell
+
+" Indentacao automatica
+set smartindent
+
+" highlight todas as buscas
+set hlsearch
+
+" salva automaticamente
+set autowriteall
+```
 
