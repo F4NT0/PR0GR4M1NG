@@ -18,7 +18,7 @@
 
 
 
-[MINHA CONFIGURAÇÃO](tut_config/home.md)
+[MINHA CONFIGURAÇÃO](pages/tut_config/home.md)
 
 
 ---
