@@ -13,6 +13,13 @@
 <center>
 <code style="color:yellow">GLOSSÁRIO</code>
 </center>
+<br>
+<br>
+
+
+
+[MINHA CONFIGURAÇÃO](tut_config/home.md)
+
 
 ---
 
