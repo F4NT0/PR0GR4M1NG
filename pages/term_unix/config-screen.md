@@ -11,7 +11,7 @@ Podemos fazer várias modificações no Terminal, mas iremos ver algumas nessa P
 
 * MEU PS1 NO ARQUIVO <code style="color: lightgreen">PS1='${debian_chroot:+($debian_chroot)}F4NT0:\W $(__git_ps1 " (%s)") >'</code>
 * entre cada info tem uma cor, ficando assim:
-<img src="./img/ubuntu_fanto.png">
+<img src="img/ubuntu_fanto.png">
 
 ---
 
@@ -140,7 +140,7 @@ PS1='${debian_chroot:+($debian_chroot)}\[\e[01;31m\]\u\[\e[0m\]'
 * saia do modo inserção com <code style="color: lightgreen">ESC</code> e depois coloque o comando <code style="color: orange">:wq</code>
 * coloque no terminal o comando <code style="color: lightblue">source ~/.bashrc</code>
 
-<img src="./img/git_system.png">
+<img src="img/git_system.png">
 
 ---
 
