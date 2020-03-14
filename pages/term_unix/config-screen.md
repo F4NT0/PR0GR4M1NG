@@ -140,6 +140,8 @@ PS1='${debian_chroot:+($debian_chroot)}\[\e[01;31m\]\u\[\e[0m\]'
 * saia do modo inserção com <code style="color: lightgreen">ESC</code> e depois coloque o comando <code style="color: orange">:wq</code>
 * coloque no terminal o comando <code style="color: lightblue">source ~/.bashrc</code>
 
+<img src="./img/git_system.png">
+
 ---
 
 ## Colocando uma Mensagem na Tela do Terminal
