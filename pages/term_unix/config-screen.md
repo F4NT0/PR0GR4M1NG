@@ -5,6 +5,17 @@
 Podemos fazer várias modificações no Terminal, mas iremos ver algumas nessa Página
 
 
+## Minha configuração do meu Terminal
+
+---
+
+* MEU PS1 NO ARQUIVO <code style="color: lightgreen">PS1='${debian_chroot:+($debian_chroot)}F4NT0:\W $(__git_ps1 " (%s)") >'</code>
+* entre cada info tem uma cor, ficando assim:
+<img src="./img/ubuntu_fanto.png">
+
+---
+
+
 ## Customizando as informações do prompt
 
 ---
@@ -33,8 +44,8 @@ Código|Informação
 <code style="color : red">\h</code>| Apresenta o nome do dono do sistema(hostname)
 <code style="color : red">\t</code>| O horário atual em formato de 24h (HH:MM:SS)
 <code style="color : red">\u</code>| Apresenta o Nome do Usuário atual logado
-<code style="color : red">\w</code>| Apresenta o Diretório atual e a pasta Home é abreviada com <code style="color : gold">~</code>
-<code style="color : red">\W</code>| Apresenta todo o Caminho para o Diretório Atual
+<code style="color : red">\w</code>| Apresenta o caminho até o Diretório atual e a pasta Home é abreviada com <code style="color : gold">~</code>
+<code style="color : red">\W</code>| Mostra somente o Diretório Atual e se deseja ver o caminho todo use o comando <code style="color: gold">pwd</code>
 <code style="color : red">\\[</code> e <code style="color : red">\\]</code>| Coloca toda a informação dentro de dois [ ] no Terminal
 
 #### Encontrando o PS1
@@ -108,6 +119,26 @@ Exemplo total de um PS1:
 ```bash
 PS1='${debian_chroot:+($debian_chroot)}\[\e[01;31m\]\u\[\e[0m\]'
 ```
+
+---
+
+
+## Configurando o GIT no Terminal
+
+---
+
+* Agora irei mostrar como botar o programa no git para aparecer no Terminal
+* Esse sistema serve para verificarmos o Status e a Branch que estamos trabalhando
+  * `*` = mostra que tem coisas novas na Branch que devem ser salvas com _git add_
+  * `+` = mostra que foi salvo as coisas novas e está tudo pronto para fazer _git commit_
+  * `(master)` = é o nome da Branch atual no Repositório que você está trabalhando
+
+* Abra o arquivo <code style="color: lightblue">sudo vim ~/.bashrc</code>
+* Dentro do arquivo clique em <code style="color: lightgreen">i</code>
+* Vá até o fim do arquivo e coloque <code style="color: orange">export</code><code style="color: lightblue">GIT_PS1_SHOWDIRTYSTATE=1</code> 
+* então vai até o fim do PS1 apresentado anteriormente e coloque o seguinte comando: <code style="color: lightblue">$(__git_ps1 " (%s)")</code>
+* saia do modo inserção com <code style="color: lightgreen">ESC</code> e depois coloque o comando <code style="color: orange">:wq</code>
+* coloque no terminal o comando <code style="color: lightblue">source ~/.bashrc</code>
 
 ---
 
