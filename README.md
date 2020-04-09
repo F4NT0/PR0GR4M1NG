@@ -16,12 +16,20 @@
 <br>
 <br>
 
-
-
-[MINHA CONFIGURAÇÃO](pages/tut_config/home.md)
-
-
 ---
+
+<br>
+
+<center>
+  <codestyle="color: magenta">PÁGINAS DE VIDEOS PUBLICADOS E INTERESSANTES</code>
+</center>
+
+<br>
+
+Link para Página|Informações|Imagem
+|---|---|---|
+[Página Inicial dos Vídeos de Git](pages/yt_git/home.md)| Vídeos que publiquei sobre Git|<img src="img/my_yt_icon.png" width="100">
+
 
 <br>
 
