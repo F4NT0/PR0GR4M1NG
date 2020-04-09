@@ -8,7 +8,7 @@ Glossário de Emojis:
 
 * :heavy_check_mark: = Página Adicionada
 * :heavy_plus_sign: = Página que precisa ser adicionada
-* :x: = Página que precisa ser criada
+* :construction: = Página que precisa ser criada
 
 ---
 
@@ -28,9 +28,9 @@ strings.md| :heavy_check_mark:
 funcoes.md| :heavy_check_mark:
 structs.md| :heavy_check_mark:
 bits-manipulacao.md| :heavy_check_mark:
-campos-bits.md| :x:
-escrevendo-arquivo.md| :x:
-lendo-arquivo.md|:x:
-modularizacao.md|:x:
-ponteiros.md |:x:
-aloc-memoria.md|:x:
+campos-bits.md| :construction:
+escrevendo-arquivo.md| :construction:
+lendo-arquivo.md|:construction:
+modularizacao.md|:construction:
+ponteiros.md |:construction:
+aloc-memoria.md|:construction:
