@@ -4,7 +4,7 @@
 
 ---
 
-<img src="img/../../../img/my_yt_icon.png" class="center">
+<img src="img/../../../img/my_yt_icon.png" width="200" class="center">
 
 ---
 
@@ -12,10 +12,10 @@
 
 ---
 
-[![](../../../img/issues_github.png)](https://youtu.be/XEwH48El_1s)
+[![](img/../../../img/issues_github.png)](https://youtu.be/XEwH48El_1s)
 
 ---
 
-[![](../../../img/projects_github.png)](https://youtu.be/XjobnItmYWg)
+[![](img/../../../img/projects_github.png)](https://youtu.be/XjobnItmYWg)
 
 ---
