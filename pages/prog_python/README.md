@@ -8,7 +8,7 @@ Glossário de Emojis:
 
 * :heavy_check_mark: = Página Adicionada
 * :heavy_plus_sign: = Página que precisa ser adicionada
-* :x: = Página que precisa ser criada
+* :construction: = Página que precisa ser criada
 
 ---
 
@@ -28,3 +28,13 @@ funcoes.md|:heavy_check_mark:
 arquivos.md|:heavy_check_mark:
 try-catch.md|:heavy_check_mark:
 dicionarios.md|:heavy_check_mark:
+
+[**`Python Orientado a Objetos`**]()
+
+Nome da Página|Status
+|---|---|
+
+[**`Python Funcional`**]()
+
+Nome da Página|Status
+|---|---|
