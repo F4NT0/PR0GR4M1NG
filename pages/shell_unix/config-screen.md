@@ -1,11 +1,12 @@
-[[Página Inicial](../term_unix/home.md)]
+[[Página Inicial](../shell_unix/home.md)]
 
-# Como configurar seu Visual do Terminal
+# Como configurar seu Visual do Shell CLI
 
-Podemos fazer várias modificações no Terminal, mas iremos ver algumas nessa Página
+* Podemos fazer várias modificações no nosso Sistema, nessa Página irei mostrar como alterar o PS1.
+* <code style="color: blueViolet">PS1</code> é a visualização que temos quando iniciamos um SHell novo no computador, onde ele normalmente mostra o usuário atual, o nome do sistema e o Diretório atual de Trabalho, mas podemos organizar ele como quisermos.
+ 
 
-
-## Minha configuração do meu Terminal
+## Configuração mais agradável
 
 ---
 
@@ -20,7 +21,7 @@ Podemos fazer várias modificações no Terminal, mas iremos ver algumas nessa P
 
 ---
 
-Quando iniciamos um Terminal, no Lado esquerdo podemos ver informações sobre o Terminal em si, onde podemos ver o seguinte:
+Quando iniciamos um Shell, no Lado esquerdo podemos ver informações sobre o sistema que estamos trabalhando, onde podemos ver o seguinte:
 
 ```bash
 nome_usuario@nome_host caminho/dos/diretorios $
@@ -123,7 +124,7 @@ PS1='${debian_chroot:+($debian_chroot)}\[\e[01;31m\]\u\[\e[0m\]'
 ---
 
 
-## Configurando o GIT no Terminal
+## Configurando o GIT no Shell
 
 ---
 
@@ -144,11 +145,11 @@ PS1='${debian_chroot:+($debian_chroot)}\[\e[01;31m\]\u\[\e[0m\]'
 
 ---
 
-## Colocando uma Mensagem na Tela do Terminal
+## Colocando uma Mensagem na Tela
 
 ---
 
-Vamos Colocar uma Mensagem no Terminal, para que toda vez que eu abrir um Terminal apresente a mensagem na Tela
+Vamos Colocar uma Mensagem no Shell, para que toda vez que eu abrir um novo apresente a mensagem na Tela
 
 * Baixando o Programa <code style="color : lightgreen">FIGLET</code>:
 
@@ -159,7 +160,7 @@ Vamos Colocar uma Mensagem no Terminal, para que toda vez que eu abrir um Termin
 
 Agora iremos usar esse programa no Nosso Sistema para aparecer na Tela
 
-* Entre no Arquivo onde fica o Sistema do Terminal: <code style="color : gold">sudo nano /etc/bash.bashrc</code>
+* Entre no Arquivo onde fica o Sistema do Shell: <code style="color : gold">sudo nano /etc/bash.bashrc</code>
 
 * Desce até o fim do código e no fim deixe uma linha vazia
 

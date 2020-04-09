@@ -1,6 +1,6 @@
-[[Voltar](../term_unix/home.md)]
+[[Voltar](../shell_unix/home.md)]
 
-<code style="color : yellow">Informações do Sistema no Terminal</code>
+<code style="color : yellow">Informações do Sistema do Computador</code>
 
 
 Informação|Comando

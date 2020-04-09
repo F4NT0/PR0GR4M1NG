@@ -1,4 +1,4 @@
-[[Página Inicial](../term_unix/home.md)]
+[[Página Inicial](../shell_unix/home.md)]
 
 <code style="color : yellow">Comandos de Conexão Network</code>
 

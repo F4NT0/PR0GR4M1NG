@@ -1,4 +1,4 @@
-[[Voltar](../term_unix/home)]
+[[Voltar](../shell_unix/home)]
 
 
 <code style="color : yellow">Instalação de Programas</code>

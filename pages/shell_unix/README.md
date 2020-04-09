@@ -27,11 +27,7 @@ compress.md|:heavy_check_mark:
 
 Nome da Página|Status
 |---|---|
-configurando-cores.md|:heavy_plus_sign:
-configurando-shell.md|:heavy_plus_sign:
-configurando-ps1.md|:heavy_plus_sign:
-colocando-mensagem-terminal.md|:heavy_plus_sign:
-ansi-cores.md|:heavy_plus_sign:
+config-screen:md|:heavy_check_mark:
 
 [**`Páginas de Utilidades pelo terminal`**]()
 
