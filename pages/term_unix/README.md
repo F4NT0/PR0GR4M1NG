@@ -8,7 +8,7 @@ Glossário de Emojis:
 
 * :heavy_check_mark: = Página Adicionada
 * :heavy_plus_sign: = Página que precisa ser adicionada
-* :heavy_plus_sign: = Página que precisa ser criada
+* :construction: = Página que precisa ser criada
 
 ---
 
@@ -23,7 +23,7 @@ files.md|:heavy_check_mark:
 directory.md|:heavy_check_mark:
 compress.md|:heavy_check_mark:
 
-[**`Páginas de Gerenciamento Linux`**]()
+[**`Páginas de Configurações do Terminal`**]()
 
 Nome da Página|Status
 |---|---|
