@@ -14,20 +14,20 @@ Glossário de Emojis:
 
 [**`Básico da Linguagem`**]()
 
-Nome da Página|Status
-|---|---|
-bases-numericas.md|:heavy_check_mark:
-bases-usos.md|:heavy_check_mark:
-compilador.md|:heavy_check_mark:
-estrutura-basica.md| :heavy_check_mark:
-tipos-dados.md| :heavy_check_mark:
-estrutura-decisao.md|:heavy_check_mark:
-estrutura-repeticao.md|:heavy_check_mark:
-estrutura-dados.md| :heavy_check_mark:
-strings.md| :heavy_check_mark:
-funcoes.md| :heavy_check_mark:
-structs.md| :heavy_check_mark:
-bits-manipulacao.md| :heavy_check_mark:
+Nome da Página|Status|Ultima Atualização
+|---|---|---|
+bases-numericas.md|:heavy_check_mark:|09/04/2020
+bases-usos.md|:heavy_check_mark:|09/04/2020
+compilador.md|:heavy_check_mark:|09/04/2020
+estrutura-basica.md| :heavy_check_mark:|09/04/2020
+tipos-dados.md| :heavy_check_mark:|09/04/2020
+estrutura-decisao.md|:heavy_check_mark:|09/04/2020
+estrutura-repeticao.md|:heavy_check_mark:|09/04/2020
+estrutura-dados.md| :heavy_check_mark:|09/04/2020
+strings.md| :heavy_check_mark:|09/04/2020
+funcoes.md| :heavy_check_mark:|09/04/2020
+structs.md| :heavy_check_mark:|09/04/2020
+bits-manipulacao.md| :heavy_check_mark:|09/04/2020
 campos-bits.md| :construction:
 escrevendo-arquivo.md| :construction:
 lendo-arquivo.md|:construction:
