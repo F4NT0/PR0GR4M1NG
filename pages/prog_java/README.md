@@ -19,6 +19,15 @@ Nome da Página|Status| Ultima Modificação
 bases-numericas.md|:heavy_check_mark:|09/04/2020
 writing_file.md|:heavy_check_mark:|09/04/2020
 reading_file.md|:heavy_check_mark:|09/04/2020
+tipos_variaveis.md|:heavy_plus_sign:
+for_loop.md|:heavy_plus_sign:
+while_loop.md|:heavy_plus_sign:
+if_else.md|:heavy_plus_sign:
+vetor.md|:heavy_plus_sign:
+metodos.md|:heavy_plus_sign:
+sorts.md|:heavy_plus_sign:
+lambda.md|:heavy_plus_sign:
+recursão.md|:heavy_plus_sign:
 
 [**`Orientação a Objetos`**]()
 
