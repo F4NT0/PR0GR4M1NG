@@ -14,20 +14,20 @@ Glossário de Emojis:
 
 [**`Básico da Linguagem`**]()
 
-Nome da Página|Status
-|---|---|
-bases-numericas|:heavy_check_mark:
-home.md|:heavy_check_mark:
-tipos-dados.md|:heavy_check_mark:
-estr-decisoes.md|:heavy_check_mark:
-input.md|:heavy_check_mark:
-for.md|:heavy_check_mark:
-while.md|:heavy_check_mark:
-listas.md|:heavy_check_mark:
-funcoes.md|:heavy_check_mark:
-arquivos.md|:heavy_check_mark:
-try-catch.md|:heavy_check_mark:
-dicionarios.md|:heavy_check_mark:
+Nome da Página|Status|Ultima Atualização
+|---|---|---|
+bases-numericas|:heavy_check_mark:|09/04/2020
+home.md|:heavy_check_mark:|09/04/2020
+tipos-dados.md|:heavy_check_mark:|09/04/2020
+estr-decisoes.md|:heavy_check_mark:|09/04/2020
+input.md|:heavy_check_mark:|09/04/2020
+for.md|:heavy_check_mark:|09/04/2020
+while.md|:heavy_check_mark:|09/04/2020
+listas.md|:heavy_check_mark:|09/04/2020
+funcoes.md|:heavy_check_mark:|09/04/2020
+arquivos.md|:heavy_check_mark:|09/04/2020
+try-catch.md|:heavy_check_mark:|09/04/2020
+dicionarios.md|:heavy_check_mark:|09/04/2020
 
 [**`Python Orientado a Objetos`**]()
 
