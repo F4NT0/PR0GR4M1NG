@@ -1,1 +1,0 @@
-# Controle das Páginas sobre Prompt de Comando

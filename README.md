@@ -1,7 +1,7 @@
 # Bem vindo ao Website de Informações do Fanto
 
 <center>
-  <img src="img/terminal.gif" width="300">
+  <img src="img/fanto_hacker.jpg" width="300">
 </center>
 
 <center>
@@ -61,9 +61,9 @@ Link para Página|Informações|Imagem
 
 Link para Página|Informações|Imagem
 |---|---|---|
-[Mexendo com o Shell CLI do Unix](pages/term_unix/home.md)| Estudos do Terminal do Unix|<img src="img/linux-terminal.png" width="100">
-[Mexendo com o Shell CLI Prompt de Comando do Windows](pages/term_prompt/home.md)| Estudos do Terminal Prompt de Comando|<img src="img/win-terminal.png" width="100">
-[Mexendo com o Shell CLI Powershell do Windows](pages/term_powershell/home.md)| Estudos do Terminal Prompt de Comando|<img src="img/power-terminal.png" width="100">
+[Mexendo com o Shell CLI do Unix](pages/shell_unix/home.md)| Estudos do Terminal do Unix|<img src="img/linux-terminal.png" width="100">
+[Mexendo com o Shell CLI Prompt de Comando do Windows](pages/shell_prompt/home.md)| Estudos do Terminal Prompt de Comando|<img src="img/win-terminal.png" width="100">
+[Mexendo com o Shell CLI Powershell do Windows](pages/shell_powershell/home.md)| Estudos do Terminal Prompt de Comando|<img src="img/power-terminal.png" width="100">
 [Programando no VI e VIM](pages/vi_vim/home.md)| Comandos e Definições do VI e VIM|<img src="img/vim_icon.ico">
 
 <br>
