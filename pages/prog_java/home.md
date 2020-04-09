@@ -22,6 +22,8 @@ Todo conhecimento básico de Java
 Link da Página|Resumo
 |---|---|
 [Revisando tipos de Bases Numéricas](../prog_java/bases-numericas.md)| Revisão de Tipos de Bases Numéricas
+[Escrevendo Arquivos Textos](../prog_java/writing_file.md) | Como escrever em um arquivo com Java
+[Lendo Arquivos Textos](../prog_java/reading_file.md) | Como ler arquivos com java
 
 ---
 
@@ -42,6 +44,4 @@ Link da página|Resumo
 [Teoria do Tratamento de Excessoes](../prog_java/exceptions_teoria.md) | Entenda como funciona o tratamento de Excessoes
 [Trabalhando com Excessoes](../prog_java/exceptions.md)| Como utilizar excessoes em Java
 [Fluxo de Dados em Java](../prog_java/data_flux.md) | Entendendo como funciona o fluxo de dados
-[Escrevendo Arquivos Textos](../prog_java/writing_file.md) | Como escrever em um arquivo com Java
-[Lendo Arquivos Textos](../prog_java/reading_file.md) | Como ler arquivos com java
 
