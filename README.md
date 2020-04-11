@@ -88,7 +88,7 @@ Link para Página|Informações|Imagem
 
 Link para Página|Informações|Imagem
 |---|---|---|
-[Lista de Programas bons para utilizar](pages/org_programs/home.md)|Programas simples mas muito bons para utilizar|<img src="img/programs.png" width="300">
+[Lista de Programas bons para utilizar](pages/org_programs/home.md)|Programas simples mas muito bons para utilizar|<img src="img/programs.png" width="150">
 
 <br>
 
