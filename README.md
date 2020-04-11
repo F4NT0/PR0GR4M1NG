@@ -62,16 +62,16 @@ Link para Página|Informações|Imagem
 <br>
 
 <center>
-  <code style="color : magenta">MEXENDO COM TERMINAIS</code>
+  <code style="color : magenta">MEXENDO COM SHELLS CLI</code>
 </center>
 
 <br>
 
 Link para Página|Informações|Imagem
 |---|---|---|
-[Mexendo com o Shell CLI do Unix](pages/shell_unix/home.md)| Estudos do Terminal do Unix|<img src="img/linux-terminal.png" width="100">
-[Mexendo com o Shell CLI Prompt de Comando do Windows](pages/shell_prompt/home.md)| Estudos do Terminal Prompt de Comando|<img src="img/win-terminal.png" width="100">
-[Mexendo com o Shell CLI Powershell do Windows](pages/shell_powershell/home.md)| Estudos do Terminal Prompt de Comando|<img src="img/power-terminal.png" width="100">
+[Mexendo com o Shell CLI do Unix](pages/shell_unix/home.md)| Estudos do Shell do Unix|<img src="img/linux-terminal.png" width="100">
+[Mexendo com o Shell CLI Prompt de Comando do Windows](pages/shell_prompt/home.md)| Estudos do Shell Prompt de Comando|<img src="img/win-terminal.png" width="100">
+[Mexendo com o Shell CLI Powershell do Windows](pages/shell_powershell/home.md)| Estudos do Shell Powershell|<img src="img/power-terminal.png" width="100">
 [Programando no VI e VIM](pages/vi_vim/home.md)| Comandos e Definições do VI e VIM|<img src="img/vim_icon.ico">
 
 <br>
@@ -84,7 +84,19 @@ Link para Página|Informações|Imagem
 
 Link para Página|Informações|Imagem
 |---|---|---|
-[Como fazer uma Página com Markdown](pages/tut_pages/home.md)|Como construir Páginas com Markdown para Github Pages|<img src="img/md-icon.png" width="300">
+[Como fazer uma Página com Markdown](pages/tut_pages/home.md)|Como construir Páginas com Markdown|<img src="img/md-icon.png" width="300">
+
+<br>
+
+<center>
+  <code style="color : magenta">PROGRAMAS E SUAS INSTALAÇÕES</code>
+</center>
+
+<br>
+
+Link para Página|Informações|Imagem
+|---|---|---|
+[Lista de Programas bons para utilizar](pages/org_programs/home.md)|Programas simples mas muito bons para utilizar|<img src="img/programs.png" width="300">
 
 <br>
 
