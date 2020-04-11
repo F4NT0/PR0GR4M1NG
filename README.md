@@ -10,18 +10,10 @@
 
 ---
 
-<center>
-<code style="color:yellow">GLOSSÁRIO</code>
-</center>
-<br>
-<br>
-
----
-
 <br>
 
 <center>
-  <codestyle="color: magenta">PÁGINAS DE VIDEOS PUBLICADOS E INTERESSANTES</code>
+  <code style="color: magenta">PÁGINAS DE VIDEOS PUBLICADOS E INTERESSANTES</code>
 </center>
 
 <br>
