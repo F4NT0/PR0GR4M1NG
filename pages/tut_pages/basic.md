@@ -1,4 +1,5 @@
-[[Página Inicial](../tut_pages/home.md)]
+[Página Inicial](../tut_pages/home.md)
+|---|
 
 # COMO ESCREVER NA LINGUAGEM MARKDOWN
 
@@ -13,20 +14,20 @@
 
 ---
 
-* [CRIANDO ABA DE TELAS](gerenciando_wiki#abaTelas)
-* [COLOCANDO TEXTO EM NEGRITO](gerenciando_wiki#negrito)
-* [COLOCANDO TEXTO EM ITALICO](gerenciando_wiki#italico)
-* [MARCANDO TEXTO ESPECIFICO](gerenciando_wiki#marcado)
-* [CRIANDO TABELAS](gerenciando_wiki#tabelas)
-* [TITULOS](gerenciando_wiki#titulos)
-* [DIVISAO DE TEXTOS](gerenciando_wiki#divisao)
-* [SEPARANDO TEXTOS](gerenciando_wiki#separacao)
-* [COLOCANDO CÓDIGO NO TEXTO](gerenciando_wiki#codigo)
-* [LINK DE ACESSO RÁPIDO](gerenciando_wiki#links)
-* [COLOCANDO MARCAÇÃO DE TECLADO](gerenciamento_wiki#keyboard)
-* [COLOCANDO CÓDIGO HEX DE CORES](gerenciamento_wiki#colors)
-* [COLOCANDO CORES EM LETRAS NO GITHUB PAGES](gerenciamento_wiki#colorFonts)
-* [EMOJIS](gerenciando_wiki#emojis)
+* [CRIANDO ABA DE TELAS](../tut_pages/basic.md#abaTelas)
+* [COLOCANDO TEXTO EM NEGRITO](basic#negrito)
+* [COLOCANDO TEXTO EM ITALICO](basic#italico)
+* [MARCANDO TEXTO ESPECIFICO](basic#marcado)
+* [CRIANDO TABELAS](basic#tabelas)
+* [TITULOS](basic#titulos)
+* [DIVISAO DE TEXTOS](basic#divisao)
+* [SEPARANDO TEXTOS](basic#separacao)
+* [COLOCANDO CÓDIGO NO TEXTO](basic#codigo)
+* [LINK DE ACESSO RÁPIDO](basic#links)
+* [COLOCANDO MARCAÇÃO DE TECLADO](basic#keyboard)
+* [COLOCANDO CÓDIGO HEX DE CORES](basic#colors)
+* [COLOCANDO CORES EM LETRAS NO GITHUB PAGES](basic#colorFonts)
+* [EMOJIS](basic#emojis)
 
 * Markdown é uma Linguagem de Texto que estrutura como o Texto vai aparecer, essa Wiki toda é feita utilizando essa linguagem.
 * Existem estruturas especificas para usar quando escreve em Markdown, onde podemos inventar coisas interessantes com elas.
@@ -232,7 +233,7 @@ Texto Separado
 
 * Uma coisa incrivel do Markdown é que podemos fazer highlight de código usando a seguinte estrutura em Markdown:
 
-<img src="images/wiki_manager/markdown_code.png">
+<img src="../img/markdown/codigo-markdown.png">
 
 * Sempre coloque o nome da linguagem que deseja fazer highlight depois dos primeiros **```**
 
@@ -257,7 +258,7 @@ public class Teste{
 * Exemplo:
 
 ```markdown
-[Arquivos](gerenciando_wiki#linkAcessoRapido)
+[Arquivos](basic#linkAcessoRapido)
 ```
 * O que vem depois do nome **gereniando_wiki** (que deve ser o nome deste arquivo markdown) e do **#** é uma Alias que poderemos usar em qualquer parte do nosso Código.
 * Para chamar o Alias, devemos usar a seguinte tag:
@@ -300,7 +301,7 @@ public class Teste{
 
 * Ex: 
 
-<img src="images/wiki_manager/hex_color_comment.png">
+<img src="../img/../../img/markdown/hex-color.png">
 
 
 * Se deseja conhecer mais cores, clique nesse Site: https://www.color-hex.com/
