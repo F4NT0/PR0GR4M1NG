@@ -8,11 +8,6 @@
     B3M V1ND0 40 C0NH3C1M3NT0
 </center>
 
-
----
-
-<iframe width="720" height="405" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ---
 
 <br>
